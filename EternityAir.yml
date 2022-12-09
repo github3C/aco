@@ -1,0 +1,269 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  nameserver:
+  - 114.114.114.114
+  - 223.5.5.5
+  - 8.8.8.8
+  - 9.9.9.9
+  - 1.1.1.1
+  - https://dns.google/dns-query
+  - tls://dns.google:853
+proxies:
+- name: 🇺🇸US-165.3.122.219-0761 | 36.456MB
+  server: zzus01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: fb9ea3de-c2be-4400-bf0c-9647d095e7be
+  sni: zzus01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇺🇸US-20.9.43.134-0834 | 15.404MB
+  server: usa1.csadata4g.me
+  port: 80
+  type: vmess
+  uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v9-vn.tiktokcdn.com
+- name: 🇺🇸US-20.9.43.134-0833 | 15.178MB
+  server: usa1.csadata4g.me
+  port: 80
+  type: vmess
+  uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: RELAY-172.67.128.43-0189 | 9.497MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: 🇨🇦CA-35.182.165.120-0202 | 9.415MB
+  server: can01.paopaocloud.cyou
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-0198 | 9.336MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: 🇩🇪DE-212.83.56.208-0211 | 8.912MB
+  server: ger01.paopaocloud.cyou
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: 🇺🇸US-66.94.113.10-0226 | 8.788MB
+  server: ssru.v2.us03.2yun.win
+  port: 13306
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.us03.2yun.win
+- name: RELAY-172.67.128.43-0192 | 8.199MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: 🇫🇷FR-51.158.148.231-0231 | 7.893MB
+  server: paopao.v2.hl01.paopaocloud.cyou
+  port: 3306
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hl01.ssru3.casa
+- name: RELAY-172.67.128.43-0194 | 0.61MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 376e0504-b035-3b20-a899-a051af4915ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: 🇨🇳CN-157.254.193.251-0759 | 0.274MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: fb9ea3de-c2be-4400-bf0c-9647d095e7be
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇨🇳CN-157.254.193.251-0760 | 0.037MB
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: fb9ea3de-c2be-4400-bf0c-9647d095e7be
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+proxy-groups:
+- name: Global ©️
+  type: select
+  proxies:
+  - Global - UrlTest(Tiers) 🥶
+  - Global - Fallback(Tiers) 🌎
+  - Global - LoadBalance(ch) 🦄
+  - Global - LoadBalance(rr) 🍄
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - UrlTest(Tiers) 🥶
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - Fallback(Tiers) 🌎
+  type: fallback
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - LoadBalance(ch) 🦄
+  type: load-balance
+  strategy: consistent-hashing
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - LoadBalance(rr) 🍄
+  type: load-balance
+  strategy: round-robin
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Tier 1 🚀
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇺🇸US-165.3.122.219-0761 | 36.456MB
+  - 🇺🇸US-20.9.43.134-0834 | 15.404MB
+  - 🇺🇸US-20.9.43.134-0833 | 15.178MB
+- name: Tier 2 ⚡️
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - RELAY-172.67.128.43-0189 | 9.497MB
+  - 🇨🇦CA-35.182.165.120-0202 | 9.415MB
+  - RELAY-172.67.128.43-0198 | 9.336MB
+- name: Tier 3 💎
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇩🇪DE-212.83.56.208-0211 | 8.912MB
+  - 🇺🇸US-66.94.113.10-0226 | 8.788MB
+  - RELAY-172.67.128.43-0192 | 8.199MB
+- name: Tier 4 🗿
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇫🇷FR-51.158.148.231-0231 | 7.893MB
+  - RELAY-172.67.128.43-0194 | 0.61MB
+  - 🇨🇳CN-157.254.193.251-0759 | 0.274MB
+  - 🇨🇳CN-157.254.193.251-0760 | 0.037MB
+rules:
+- MATCH,Global ©️
