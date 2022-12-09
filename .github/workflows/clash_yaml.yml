@@ -6,7 +6,7 @@ on:
 
   push:
     paths:
-      - "./EternityBase"
+      - "./HappyBase"
 
   schedule:
     - cron: "45 2,14 * * *"
@@ -45,8 +45,8 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git pull origin master
-          git add Eternity.yml
-          git add Eternity
+          git add Happy.yml
+          git add Happy
           git add README.md
           git add ./update/*
           git add LogInfo.txt

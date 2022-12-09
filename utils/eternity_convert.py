@@ -11,9 +11,9 @@ from subs_function import subs_function
 
 from list_merge import sub_merge
 
-Eterniy_base_file = './EternityBase'
-Eterniy_file = './Eternity'
-Eternity_yml_file = './Eternity.yml'
+Eterniy_base_file = './HappyBase'
+Eterniy_file = './Happy'
+Eternity_yml_file = './Happy.yml'
 readme = './README.md'
 log_file = './LogInfo.txt'
 

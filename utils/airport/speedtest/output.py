@@ -5,10 +5,10 @@ import time
 
 out_json = './out.json'
 
-Eternity_Air = "./EternityAir"
+Eternity_Air = "./HappyAir"
 airport_all_base64 = "./sub/airport_merge_base64.txt"
 sub_all = "./sub/airport_sub_merge.txt"
-Eternity_Air_file = "./EternityAir.txt"
+Eternity_Air_file = "./HappyAir.txt"
 
 
 def read_json(file):  # 将 out.json 内容读取为列表

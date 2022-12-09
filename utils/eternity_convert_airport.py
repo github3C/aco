@@ -11,8 +11,8 @@ from subs_function import subs_function
 
 from list_merge_airport import sub_merge
 
-Eterniy_file = './EternityAir'
-Eternity_yml_file = './EternityAir.yml'
+Eterniy_file = './HappyAir'
+Eternity_yml_file = './HappyAir.yml'
 log_file = './LogInfoAir.txt'
 
 provider_path = './update/provider/'

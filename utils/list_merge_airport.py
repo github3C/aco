@@ -9,7 +9,7 @@ from list_update import update_url
 from sub_convert import sub_convert
 
 
-Eterniy = './Eternity'
+Eterniy = './Happy'
 readme = './README.md'
 
 sub_list_airport_json = './sub/sub_list_airport.json'
@@ -81,7 +81,7 @@ class sub_merge():
                 while lines[index+4] != '\n':
                     lines.pop(index+4)
 
-                with open('./Eternity', 'r', encoding='utf-8') as f:
+                with open('./Happy', 'r', encoding='utf-8') as f:
                     proxies_base64 = f.read()
                     proxies = sub_convert.base64_decode(proxies_base64)
                     proxies = proxies.split('\n')
