@@ -17,29 +17,39 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.219.162.157-1107 | 0.673MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
+- name: 🇺🇸US-192.210.206.28-0845 | 1.944MB
+  server: usrn1.xiaolongyun.xyz
+  port: 21903
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usrn1.xiaolongyun.xyz
+- name: 🇷🇺RU-185.22.152.130-0843 | 1.82MB
+  server: ru1.xiaolongyun.xyz
+  port: 21901
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ru1.xiaolongyun.xyz
+- name: 🇯🇵JP-3.112.201.11-0311 | 0.271MB
+  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  port: 443
   type: vmess
   uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.219.162.157-0890 | 0.557MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.219.162.157-0127 | 0.441MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
   alterId: 0
   cipher: auto
   tls: false
@@ -118,8 +128,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.219.162.157-1107 | 0.673MB
-  - 🇺🇸US-54.219.162.157-0890 | 0.557MB
-  - 🇺🇸US-54.219.162.157-0127 | 0.441MB
+  - 🇺🇸US-192.210.206.28-0845 | 1.944MB
+  - 🇷🇺RU-185.22.152.130-0843 | 1.82MB
+  - 🇯🇵JP-3.112.201.11-0311 | 0.271MB
 rules:
 - MATCH,Global ©️
