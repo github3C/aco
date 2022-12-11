@@ -17,14 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-203.218.252.21-566 | 11.791MB
-  server: azhk092.xiaohouzi.club
-  port: 10102
-  type: trojan
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  sni: azhk092.xiaohouzi.club
-  skip-cert-verify: false
-- name: 🇭🇰HK-16.163.109.24-696 | 11.376MB
+- name: 🇭🇰HK-16.163.109.24-667 | 11.377MB
   server: hk80.sanfen001.pics
   port: 80
   type: vmess
@@ -38,15 +31,50 @@ proxies:
     path: /
     headers:
       Host: a.189.cn
-- name: 🇨🇳CN-43.155.73.112-569 | 3.508MB
-  server: azhk095.xiaohouzi.club
-  port: 10102
-  type: trojan
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  sni: azhk095.xiaohouzi.club
+- name: 🇺🇸US-192.210.206.28-696 | 2.044MB
+  server: usrn1.xiaolongyun.xyz
+  port: 21903
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: VN-103.167.196.48-073 | 0.1MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usrn1.xiaolongyun.xyz
+- name: 🇺🇸US-192.210.206.28-697 | 1.909MB
+  server: usrn2.xiaolongyun.xyz
+  port: 21904
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usrn2.xiaolongyun.xyz
+- name: VN-103.167.196.48-156 | 0.123MB
   server: 103.167.196.48
+  port: 80
+  type: vmess
+  uuid: 56716a96-a265-448c-8969-03e626889580
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: VN-103.167.196.52-155 | 0.085MB
+  server: 103.167.196.52
   port: 80
   type: vmess
   uuid: 56716a96-a265-448c-8969-03e626889580
@@ -115,27 +143,28 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-203.218.252.21-566 | 11.791MB
+  - 🇭🇰HK-16.163.109.24-667 | 11.377MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-16.163.109.24-696 | 11.376MB
+  - 🇺🇸US-192.210.206.28-696 | 2.044MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-43.155.73.112-569 | 3.508MB
+  - 🇺🇸US-192.210.206.28-697 | 1.909MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - VN-103.167.196.48-073 | 0.1MB
+  - VN-103.167.196.48-156 | 0.123MB
+  - VN-103.167.196.52-155 | 0.085MB
 rules:
 - MATCH,Global ©️
