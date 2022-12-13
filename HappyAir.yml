@@ -17,16 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇸🇬SG-18.143.174.192-0065 | 12.374MB
-  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: VN-103.124.92.48-0609 | 11.568MB
+- name: VN-103.124.92.48-0383 | 12.132MB
   server: 103.124.92.48
   port: 80
   type: vmess
@@ -40,49 +31,14 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: VN-103.124.92.48-0611 | 10.189MB
-  server: 103.124.92.48
-  port: 443
-  type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 🇨🇳CN-129.226.209.62-0299 | 3.38MB
+  server: supsig.xiaohouzi.club
+  port: 10102
+  type: trojan
+  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
+  sni: supsig.xiaohouzi.club
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇺🇸US-192.210.206.28-0963 | 2.072MB
-  server: usrn2.xiaolongyun.xyz
-  port: 21904
-  type: vmess
-  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usrn2.xiaolongyun.xyz
-- name: 🇷🇺RU-185.22.152.130-0960 | 1.914MB
-  server: ru1.xiaolongyun.xyz
-  port: 21901
-  type: vmess
-  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ru1.xiaolongyun.xyz
-- name: CZ-195.133.52.146-0961 | 1.912MB
+- name: CZ-195.133.52.146-0028 | 2.001MB
   server: ru2.xiaolongyun.xyz
   port: 21902
   type: vmess
@@ -96,7 +52,21 @@ proxies:
     path: /
     headers:
       Host: ru2.xiaolongyun.xyz
-- name: 🇭🇰HK-20.187.71.25-1313 | 0.728MB
+- name: 🇷🇺RU-185.22.152.130-0027 | 1.351MB
+  server: ru1.xiaolongyun.xyz
+  port: 21901
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ru1.xiaolongyun.xyz
+- name: 🇭🇰HK-20.187.71.25-0043 | 0.729MB
   server: 20.187.71.25
   port: 48000
   type: vmess
@@ -108,7 +78,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇭🇰HK-20.187.71.25-1322 | 0.726MB
+- name: 🇭🇰HK-20.187.71.25-0052 | 0.727MB
   server: 20.187.71.25
   port: 48005
   type: vmess
@@ -120,7 +90,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇭🇰HK-20.187.71.25-1315 | 0.717MB
+- name: 🇭🇰HK-20.187.71.25-0045 | 0.716MB
   server: 20.187.71.25
   port: 48007
   type: vmess
@@ -132,7 +102,19 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇭🇰HK-20.24.83.49-1309 | 0.715MB
+- name: 🇭🇰HK-20.239.51.194-0038 | 0.715MB
+  server: 20.239.51.194
+  port: 44300
+  type: vmess
+  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-20.24.83.49-0039 | 0.715MB
   server: 20.24.83.49
   port: 44800
   type: vmess
@@ -144,43 +126,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇭🇰HK-18.162.151.179-1312 | 0.715MB
-  server: 18.162.151.179
-  port: 44300
-  type: vmess
-  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇭🇰HK-20.205.45.1-1306 | 0.713MB
-  server: 20.205.45.1
-  port: 44300
-  type: vmess
-  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇨🇳TW-165.154.227.117-1320 | 0.713MB
-  server: 165.154.227.117
-  port: 38526
-  type: vmess
-  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇭🇰HK-20.205.44.205-1307 | 0.711MB
+- name: 🇭🇰HK-20.205.44.205-0037 | 0.714MB
   server: 20.205.44.205
   port: 44300
   type: vmess
@@ -192,7 +138,31 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇭🇰HK-20.187.71.25-1321 | 0.706MB
+- name: 🇭🇰HK-20.205.45.1-0036 | 0.713MB
+  server: 20.205.45.1
+  port: 44300
+  type: vmess
+  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇨🇳TW-165.154.227.117-0050 | 0.71MB
+  server: 165.154.227.117
+  port: 38526
+  type: vmess
+  uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-20.187.71.25-0051 | 0.706MB
   server: 20.187.71.25
   port: 48013
   type: vmess
@@ -201,13 +171,31 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: 🇭🇰HK-20.187.71.25-1321 | 0.706MB
+  servername: 🇭🇰HK-20.187.71.25-0051 | 0.706MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: uk.vip341.xyz
-- name: 🇭🇰HK-20.187.71.25-1323 | 0.671MB
+- name: 🇯🇵JP-18.183.160.53-0117 | 0.376MB
+  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.181.217.106-0116 | 0.369MB
+  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.187.71.25-0053 | 0.278MB
   server: 20.187.71.25
   port: 48012
   type: vmess
@@ -219,16 +207,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇯🇵JP-18.181.217.106-0695 | 0.559MB
-  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.187.71.25-1316 | 0.523MB
+- name: 🇭🇰HK-20.187.71.25-0046 | 0.267MB
   server: 20.187.71.25
   port: 48008
   type: vmess
@@ -240,52 +219,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇯🇵JP-13.231.195.192-0063 | 0.45MB
-  server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-43.207.44.215-0705 | 0.433MB
-  server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-43.207.44.215-0088 | 0.431MB
-  server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-52.195.0.69-0064 | 0.431MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
-  port: 443
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.181.217.106-0078 | 0.41MB
-  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: VN-103.167.196.48-0444 | 0.197MB
+- name: VN-103.167.196.48-0085 | 0.237MB
   server: 103.167.196.48
   port: 80
   type: vmess
@@ -355,47 +289,41 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-18.143.174.192-0065 | 12.374MB
-  - VN-103.124.92.48-0609 | 11.568MB
-  - VN-103.124.92.48-0611 | 10.189MB
-  - 🇺🇸US-192.210.206.28-0963 | 2.072MB
-  - 🇷🇺RU-185.22.152.130-0960 | 1.914MB
-  - CZ-195.133.52.146-0961 | 1.912MB
+  - VN-103.124.92.48-0383 | 12.132MB
+  - 🇨🇳CN-129.226.209.62-0299 | 3.38MB
+  - CZ-195.133.52.146-0028 | 2.001MB
+  - 🇷🇺RU-185.22.152.130-0027 | 1.351MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-20.187.71.25-1313 | 0.728MB
-  - 🇭🇰HK-20.187.71.25-1322 | 0.726MB
-  - 🇭🇰HK-20.187.71.25-1315 | 0.717MB
-  - 🇭🇰HK-20.24.83.49-1309 | 0.715MB
-  - 🇭🇰HK-18.162.151.179-1312 | 0.715MB
-  - 🇭🇰HK-20.205.45.1-1306 | 0.713MB
+  - 🇭🇰HK-20.187.71.25-0043 | 0.729MB
+  - 🇭🇰HK-20.187.71.25-0052 | 0.727MB
+  - 🇭🇰HK-20.187.71.25-0045 | 0.716MB
+  - 🇭🇰HK-20.239.51.194-0038 | 0.715MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳TW-165.154.227.117-1320 | 0.713MB
-  - 🇭🇰HK-20.205.44.205-1307 | 0.711MB
-  - 🇭🇰HK-20.187.71.25-1321 | 0.706MB
-  - 🇭🇰HK-20.187.71.25-1323 | 0.671MB
-  - 🇯🇵JP-18.181.217.106-0695 | 0.559MB
-  - 🇭🇰HK-20.187.71.25-1316 | 0.523MB
+  - 🇭🇰HK-20.24.83.49-0039 | 0.715MB
+  - 🇭🇰HK-20.205.44.205-0037 | 0.714MB
+  - 🇭🇰HK-20.205.45.1-0036 | 0.713MB
+  - 🇨🇳TW-165.154.227.117-0050 | 0.71MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-13.231.195.192-0063 | 0.45MB
-  - 🇯🇵JP-43.207.44.215-0705 | 0.433MB
-  - 🇯🇵JP-43.207.44.215-0088 | 0.431MB
-  - 🇯🇵JP-52.195.0.69-0064 | 0.431MB
-  - 🇯🇵JP-18.181.217.106-0078 | 0.41MB
-  - VN-103.167.196.48-0444 | 0.197MB
+  - 🇭🇰HK-20.187.71.25-0051 | 0.706MB
+  - 🇯🇵JP-18.183.160.53-0117 | 0.376MB
+  - 🇯🇵JP-18.181.217.106-0116 | 0.369MB
+  - 🇭🇰HK-20.187.71.25-0053 | 0.278MB
+  - 🇭🇰HK-20.187.71.25-0046 | 0.267MB
+  - VN-103.167.196.48-0085 | 0.237MB
 rules:
 - MATCH,Global ©️
