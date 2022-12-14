@@ -17,149 +17,28 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-165.3.122.219-1055 | 80.661MB
+- name: 🇺🇸US-66.152.160.78-0428 | 43.311MB
+  server: us8.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us8.netflix6.com
+- name: 🇺🇸US-165.3.122.219-0771 | 36.376MB
   server: zzus01.fuqiangren.com
   port: 20220
   type: trojan
-  password: e03eb211-a7f8-4aca-86d2-2d3a806455d1
+  password: 7d3d3d73-0679-4645-b11b-4290985a9183
   sni: zzus01.fuqiangren.com
   skip-cert-verify: false
-- name: 🇺🇸US-165.3.122.219-0451 | 79.826MB
-  server: zzus01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: d3672b6a-51b3-4e6a-a403-f5154b8ab4bc
-  sni: zzus01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0450 | 26.256MB
-  server: zzjp01.fuqiangren.com
-  port: 20221
-  type: trojan
-  password: d3672b6a-51b3-4e6a-a403-f5154b8ab4bc
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-1054 | 26.18MB
-  server: zzjp01.fuqiangren.com
-  port: 20221
-  type: trojan
-  password: e03eb211-a7f8-4aca-86d2-2d3a806455d1
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0449 | 26.102MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: d3672b6a-51b3-4e6a-a403-f5154b8ab4bc
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-1053 | 26.089MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: e03eb211-a7f8-4aca-86d2-2d3a806455d1
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-172.104.65.137-0651 | 24.402MB
-  server: jp5.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp5.feiyun.club
-- name: 🇯🇵JP-172.104.99.99-0648 | 24.238MB
-  server: jp2.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp2.feiyun.club
-- name: 🇯🇵JP-172.104.99.99-1027 | 24.236MB
-  server: jp2.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp2.feiyun.club
-- name: 🇯🇵JP-139.162.77.223-0649 | 24.214MB
-  server: jp3.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp3.feiyun.club
-- name: 🇯🇵JP-139.162.87.45-0652 | 24.197MB
-  server: jp6.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp6.feiyun.club
-- name: 🇯🇵JP-139.162.77.223-1028 | 24.193MB
-  server: jp3.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp3.feiyun.club
-- name: 🇯🇵JP-172.105.193.113-0650 | 24.169MB
-  server: jp4.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp4.feiyun.club
-- name: 🇯🇵JP-139.162.87.45-1031 | 24.051MB
-  server: jp6.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp6.feiyun.club
-- name: 🇯🇵JP-139.162.98.142-1026 | 23.945MB
-  server: jp1.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp1.feiyun.club
-- name: 🇯🇵JP-139.162.98.142-0647 | 23.941MB
-  server: jp1.feiyun.club
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp1.feiyun.club
-- name: 🇯🇵JP-172.105.193.113-1029 | 23.885MB
+- name: 🇯🇵JP-172.105.193.113-0597 | 16.91MB
   server: jp4.feiyun.club
   port: 1000
   type: vmess
@@ -169,88 +48,18 @@ proxies:
   tls: true
   skip-cert-verify: false
   servername: jp4.feiyun.club
-- name: 🇯🇵JP-54.238.219.234-0178 | 22.91MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: 🇯🇵JP-3.112.1.191-0179 | 22.361MB
-  server: jp03.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp03.170203.xyz
-- name: 🇯🇵JP-43.206.104.6-0590 | 21.744MB
-  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-172.104.65.137-1030 | 20.246MB
+- name: 🇯🇵JP-172.104.65.137-1164 | 16.457MB
   server: jp5.feiyun.club
   port: 1000
   type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   servername: jp5.feiyun.club
-- name: 🇰🇷KR-43.201.102.160-0174 | 17.664MB
-  server: kr01.170203.xyz
-  port: 45453
-  type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr01.170203.xyz
-- name: 🇬🇧GB-18.170.228.85-0874 | 16.773MB
-  server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win
-  port: 43566
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇬🇧GB-165.154.240.72-1037 | 14.046MB
-  server: kr3.czs1000.com
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: kr3.czs1000.com
-- name: 🇬🇧GB-165.154.240.72-0658 | 13.99MB
-  server: kr3.czs1000.com
+- name: 🇯🇵JP-172.105.193.113-1163 | 16.332MB
+  server: jp4.feiyun.club
   port: 1000
   type: vmess
   uuid: 980fbec9-423f-483b-8a27-6a233c27206a
@@ -258,19 +67,9 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: kr3.czs1000.com
-- name: 🇬🇧GB-165.154.240.54-1038 | 13.965MB
-  server: kr4.czs1000.com
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: kr4.czs1000.com
-- name: 🇬🇧GB-165.154.240.54-0659 | 13.895MB
-  server: kr4.czs1000.com
+  servername: jp4.feiyun.club
+- name: 🇯🇵JP-139.162.77.223-1162 | 16.166MB
+  server: jp3.feiyun.club
   port: 1000
   type: vmess
   uuid: 980fbec9-423f-483b-8a27-6a233c27206a
@@ -278,80 +77,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: kr4.czs1000.com
-- name: 🇸🇬SG-52.221.216.116-0154 | 13.849MB
-  server: sg001.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg001.170203.xyz
-- name: AE-165.154.241.144-0657 | 13.768MB
-  server: jp12.tejiewm.com
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp12.tejiewm.com
-- name: AE-165.154.241.217-0654 | 13.701MB
-  server: jp9.tejiewm.com
-  port: 1000
-  type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp9.tejiewm.com
-- name: 🇸🇬SG-54.179.179.97-0153 | 13.679MB
-  server: sg03.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg03.170203.xyz
-- name: AE-165.154.241.144-1036 | 13.576MB
-  server: jp12.tejiewm.com
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp12.tejiewm.com
-- name: AE-165.154.241.217-1033 | 13.36MB
-  server: jp9.tejiewm.com
-  port: 1000
-  type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp9.tejiewm.com
-- name: 🇯🇵JP-3.112.248.211-0180 | 13.25MB
+  servername: jp3.feiyun.club
+- name: 🇯🇵JP-3.112.248.211-0518 | 16.041MB
   server: jp04.170203.xyz
   port: 23245
   type: vmess
-  uuid: d7fa33fa-b34e-42d9-93bb-fca97f4096a9
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
   alterId: 0
   cipher: auto
   tls: false
@@ -361,28 +92,28 @@ proxies:
     path: /
     headers:
       Host: jp04.170203.xyz
-- name: 🇸🇬SG-172.104.179.119-1032 | 12.816MB
-  server: sg2.feiyun.club
-  port: 39283
+- name: 🇯🇵JP-172.104.65.137-0598 | 16.016MB
+  server: jp5.feiyun.club
+  port: 1000
   type: vmess
   uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: sg2.feiyun.club
-- name: 🇸🇬SG-172.104.179.119-0653 | 12.718MB
-  server: sg2.feiyun.club
-  port: 39283
+  servername: jp5.feiyun.club
+- name: 🇯🇵JP-139.162.98.142-0594 | 15.961MB
+  server: jp1.feiyun.club
+  port: 1000
   type: vmess
-  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: sg2.feiyun.club
-- name: AE-165.154.241.7-0656 | 12.429MB
-  server: jp11.tejiewm.com
+  servername: jp1.feiyun.club
+- name: 🇯🇵JP-139.162.98.142-1160 | 15.758MB
+  server: jp1.feiyun.club
   port: 1000
   type: vmess
   uuid: 980fbec9-423f-483b-8a27-6a233c27206a
@@ -390,8 +121,202 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: jp1.feiyun.club
+- name: 🇯🇵JP-172.104.99.99-0595 | 15.728MB
+  server: jp2.feiyun.club
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp2.feiyun.club
+- name: 🇯🇵JP-3.112.1.191-0517 | 15.702MB
+  server: jp03.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp03.170203.xyz
+- name: 🇯🇵JP-139.162.87.45-0599 | 15.59MB
+  server: jp6.feiyun.club
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp6.feiyun.club
+- name: 🇯🇵JP-139.162.77.223-0596 | 15.53MB
+  server: jp3.feiyun.club
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp3.feiyun.club
+- name: 🇯🇵JP-172.104.99.99-1161 | 15.454MB
+  server: jp2.feiyun.club
+  port: 1000
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp2.feiyun.club
+- name: 🇯🇵JP-139.162.87.45-1165 | 15.301MB
+  server: jp6.feiyun.club
+  port: 1000
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp6.feiyun.club
+- name: 🇨🇳CN-157.254.193.251-0769 | 15.296MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: 7d3d3d73-0679-4645-b11b-4290985a9183
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇯🇵JP-43.206.104.6-0242 | 15.247MB
+  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-54.238.219.234-0516 | 15.144MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: 🇨🇳CN-157.254.193.251-0770 | 14.855MB
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: 7d3d3d73-0679-4645-b11b-4290985a9183
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇯🇵JP-35.78.201.249-1137 | 14.028MB
+  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇰🇷KR-43.201.102.160-0512 | 13.505MB
+  server: kr01.170203.xyz
+  port: 45453
+  type: vmess
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr01.170203.xyz
+- name: AE-165.154.241.217-0601 | 13.364MB
+  server: jp9.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp9.tejiewm.com
+- name: AE-165.154.241.217-1167 | 13.13MB
+  server: jp9.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp9.tejiewm.com
+- name: AE-165.154.241.144-1170 | 12.63MB
+  server: jp12.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp12.tejiewm.com
+- name: 🇬🇧GB-165.154.240.72-0605 | 12.627MB
+  server: kr3.czs1000.com
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: kr3.czs1000.com
+- name: AE-165.154.241.144-0604 | 12.535MB
+  server: jp12.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp12.tejiewm.com
+- name: 🇬🇧GB-165.154.240.54-0606 | 12.46MB
+  server: kr4.czs1000.com
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: kr4.czs1000.com
+- name: AE-165.154.241.7-0603 | 12.031MB
+  server: jp11.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
   servername: jp11.tejiewm.com
-- name: AE-165.154.241.104-0655 | 12.407MB
+- name: AE-165.154.241.104-1168 | 11.992MB
   server: jp10.tejiewm.com
   port: 1000
   type: vmess
@@ -401,7 +326,17 @@ proxies:
   tls: true
   skip-cert-verify: false
   servername: jp10.tejiewm.com
-- name: AE-165.154.241.104-1034 | 12.303MB
+- name: AE-165.154.241.7-1169 | 11.882MB
+  server: jp11.tejiewm.com
+  port: 1000
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jp11.tejiewm.com
+- name: AE-165.154.241.104-0602 | 11.78MB
   server: jp10.tejiewm.com
   port: 1000
   type: vmess
@@ -411,17 +346,144 @@ proxies:
   tls: true
   skip-cert-verify: false
   servername: jp10.tejiewm.com
-- name: AE-165.154.241.7-1035 | 12.281MB
-  server: jp11.tejiewm.com
-  port: 1000
+- name: 🇮🇳IN-139.84.136.112-1173 | 11.064MB
+  server: ln1.feiyun.club
+  port: 21214
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: ln1.feiyun.club
+- name: 🇮🇳IN-139.84.136.112-0607 | 11.052MB
+  server: ln1.feiyun.club
+  port: 21214
   type: vmess
   uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: jp11.tejiewm.com
-- name: VN-103.124.92.48-0938 | 12.129MB
+  servername: ln1.feiyun.club
+- name: 🇭🇰HK-103.68.62.85-0416 | 10.641MB
+  server: hk3.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk3.netflix6.com
+- name: 🇨🇳CN-140.179.136.12-0154 | 10.125MB
+  server: 115.wgong1.top
+  port: 52215
+  type: vmess
+  uuid: 45d3aa5b-951a-3214-ae00-cbd1f06c3f51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-0351 | 10.124MB
+  server: 115.wgong1.top
+  port: 52215
+  type: vmess
+  uuid: ea6acd4f-0a29-344d-b345-28a47cfaecf0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬SG-54.179.179.97-0491 | 10.096MB
+  server: sg03.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg03.170203.xyz
+- name: 🇸🇬SG-52.221.216.116-0492 | 9.893MB
+  server: sg001.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 6e1f039c-abce-4929-9a37-4303f2e6e361
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg001.170203.xyz
+- name: PH-103.38.214.222-0429 | 8.928MB
+  server: ph1.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ph1.netflix6.com
+- name: 🇸🇬SG-172.104.179.119-1166 | 8.853MB
+  server: sg2.feiyun.club
+  port: 39283
+  type: vmess
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg2.feiyun.club
+- name: VN-103.124.92.48-0372 | 8.809MB
+  server: 103.124.92.48
+  port: 80
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: 🇸🇬SG-172.104.179.119-0600 | 8.777MB
+  server: sg2.feiyun.club
+  port: 39283
+  type: vmess
+  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg2.feiyun.club
+- name: 🇨🇳CN-140.179.136.12-0354 | 8.63MB
+  server: 118.wgong1.top
+  port: 52218
+  type: vmess
+  uuid: ea6acd4f-0a29-344d-b345-28a47cfaecf0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: VN-103.124.92.48-0374 | 8.563MB
   server: 103.124.92.48
   port: 443
   type: vmess
@@ -435,11 +497,56 @@ proxies:
     path: /
     headers:
       Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇸🇬SG-139.162.43.159-0517 | 11.951MB
-  server: 139.162.43.159
-  port: 80
+- name: 🇨🇳CN-140.179.136.12-0152 | 8.443MB
+  server: 113.wgong1.top
+  port: 52213
   type: vmess
-  uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1
+  uuid: 45d3aa5b-951a-3214-ae00-cbd1f06c3f51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-0349 | 8.412MB
+  server: 113.wgong1.top
+  port: 52213
+  type: vmess
+  uuid: ea6acd4f-0a29-344d-b345-28a47cfaecf0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-0643 | 7.955MB
+  server: 115.wgong1.top
+  port: 52215
+  type: vmess
+  uuid: 281c3023-745b-3d19-bccd-d5364e0d6ca2
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-0641 | 7.914MB
+  server: 113.wgong1.top
+  port: 52213
+  type: vmess
+  uuid: 281c3023-745b-3d19-bccd-d5364e0d6ca2
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-140.179.136.12-0646 | 7.698MB
+  server: 118.wgong1.top
+  port: 52218
+  type: vmess
+  uuid: 281c3023-745b-3d19-bccd-d5364e0d6ca2
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳TW-111.252.233.139-0400 | 6.401MB
+  server: tw4.594888.xyz
+  port: 11463
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
   tls: false
@@ -448,12 +555,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: shoutingtoutiao3.10010.com
-- name: VN-103.124.92.48-0936 | 11.755MB
-  server: 103.124.92.48
-  port: 80
+      Host: tw4.594888.xyz
+- name: 🇨🇳TW-61.224.111.117-0399 | 5.992MB
+  server: tw3.594888.xyz
+  port: 25551
   type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
   tls: false
@@ -462,91 +569,247 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: dl.kgvn.garenanow.com
-- name: 🇮🇳IN-139.84.136.112-1039 | 11.683MB
-  server: ln1.feiyun.club
-  port: 21214
+      Host: tw3.594888.xyz
+- name: 🇨🇳CN-140.179.136.12-0157 | 4.896MB
+  server: 118.wgong1.top
+  port: 52218
   type: vmess
-  uuid: d1f345cd-0bed-497b-bd94-63da35f5c7f9
-  alterId: 0
+  uuid: 45d3aa5b-951a-3214-ae00-cbd1f06c3f51
+  alterId: 2
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: ln1.feiyun.club
-- name: 🇮🇳IN-139.84.136.112-0660 | 11.499MB
-  server: ln1.feiyun.club
-  port: 21214
+- name: 🇬🇧GB-165.154.240.72-1171 | 4.389MB
+  server: kr3.czs1000.com
+  port: 1000
   type: vmess
   uuid: 980fbec9-423f-483b-8a27-6a233c27206a
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: ln1.feiyun.club
-- name: 🇯🇵JP-18.182.62.112-0615 | 2.79MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  servername: kr3.czs1000.com
+- name: 🇨🇳CN-43.153.19.100-0424 | 3.898MB
+  server: us2.netflix6.com
   port: 443
   type: vmess
-  uuid: 15dcb118-88f6-44e8-895a-1770479ab8dc
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-18.182.62.112-0576 | 0.547MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us2.netflix6.com
+- name: 🇨🇳CN-43.156.53.93-0405 | 3.638MB
+  server: sg4.netflix6.com
   port: 443
   type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-35.78.201.249-0797 | 0.547MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg4.netflix6.com
+- name: 🇬🇧GB-165.154.240.54-1172 | 3.625MB
+  server: kr4.czs1000.com
+  port: 1000
   type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+  uuid: 980fbec9-423f-483b-8a27-6a233c27206a
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-35.78.201.249-0270 | 0.43MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.182.62.112-0782 | 0.429MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  servername: kr4.czs1000.com
+- name: 🇨🇳CN-43.153.192.171-0403 | 3.599MB
+  server: sg2.netflix6.com
   port: 443
   type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-35.78.201.249-0630 | 0.412MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg2.netflix6.com
+- name: 🇨🇳CN-43.153.208.52-0407 | 3.551MB
+  server: sg6.netflix6.com
+  port: 443
   type: vmess
-  uuid: 15dcb118-88f6-44e8-895a-1770479ab8dc
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-43.206.104.6-0269 | 0.372MB
-  server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win
-  port: 52356
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg6.netflix6.com
+- name: 🇨🇳CN-43.156.16.221-0406 | 3.536MB
+  server: sg5.netflix6.com
+  port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg5.netflix6.com
+- name: 🇨🇳CN-43.159.38.60-0404 | 3.515MB
+  server: sg3.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg3.netflix6.com
+- name: 🇨🇳CN-43.154.178.239-0417 | 3.441MB
+  server: hk4.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk4.netflix6.com
+- name: 🇨🇳CN-43.156.14.82-0409 | 3.409MB
+  server: sg8.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg8.netflix6.com
+- name: 🇨🇳CN-43.154.223.111-0418 | 3.155MB
+  server: hk5.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk5.netflix6.com
+- name: 🇺🇸US-103.30.16.59-0422 | 3.061MB
+  server: us1.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us1.netflix6.com
+- name: 🇨🇳CN-43.153.193.154-0408 | 2.495MB
+  server: sg7.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg7.netflix6.com
+- name: 🇭🇰HK-202.81.235.209-0415 | 2.187MB
+  server: hk2.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk2.netflix6.com
+- name: 🇷🇺RU-185.22.152.130-0676 | 1.817MB
+  server: ru1.xiaolongyun.xyz
+  port: 21901
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ru1.xiaolongyun.xyz
+- name: 🇦🇺AU-95.111.217.54-0420 | 1.633MB
+  server: v2au1.594888.xyz
+  port: 34561
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: VN-103.167.196.48-0774 | 0.132MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v2au1.594888.xyz
+- name: 🇭🇰HK-202.81.237.135-0419 | 0.69MB
+  server: hk6.netflix6.com
+  port: 443
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk6.netflix6.com
+- name: VN-103.167.196.48-0804 | 0.571MB
   server: 103.167.196.48
   port: 80
   type: vmess
@@ -560,11 +823,35 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇯🇵JP-185.160.24.45-0520 | 0.032MB
-  server: 185.160.24.45
-  port: 80
+- name: 🇨🇳CN-116.63.142.205-0395 | 0.412MB
+  server: 116.63.142.205
+  port: 21011
   type: vmess
-  uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇨🇳CN-101.33.235.173-0397 | 0.15MB
+  server: 101.33.235.173
+  port: 21015
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-103.166.127.139-0413 | 0.015MB
+  server: 103.166.127.139
+  port: 35203
+  type: vmess
+  uuid: 0633422d-516b-37e5-a83b-934678727835
   alterId: 0
   cipher: auto
   tls: false
@@ -573,7 +860,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: v2hk1.594888.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -630,77 +917,97 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-165.3.122.219-1055 | 80.661MB
-  - 🇺🇸US-165.3.122.219-0451 | 79.826MB
-  - 🇨🇳CN-157.254.193.251-0450 | 26.256MB
-  - 🇨🇳CN-157.254.193.251-1054 | 26.18MB
-  - 🇨🇳CN-157.254.193.251-0449 | 26.102MB
-  - 🇨🇳CN-157.254.193.251-1053 | 26.089MB
-  - 🇯🇵JP-172.104.65.137-0651 | 24.402MB
-  - 🇯🇵JP-172.104.99.99-0648 | 24.238MB
-  - 🇯🇵JP-172.104.99.99-1027 | 24.236MB
-  - 🇯🇵JP-139.162.77.223-0649 | 24.214MB
-  - 🇯🇵JP-139.162.87.45-0652 | 24.197MB
-  - 🇯🇵JP-139.162.77.223-1028 | 24.193MB
-  - 🇯🇵JP-172.105.193.113-0650 | 24.169MB
+  - 🇺🇸US-66.152.160.78-0428 | 43.311MB
+  - 🇺🇸US-165.3.122.219-0771 | 36.376MB
+  - 🇯🇵JP-172.105.193.113-0597 | 16.91MB
+  - 🇯🇵JP-172.104.65.137-1164 | 16.457MB
+  - 🇯🇵JP-172.105.193.113-1163 | 16.332MB
+  - 🇯🇵JP-139.162.77.223-1162 | 16.166MB
+  - 🇯🇵JP-3.112.248.211-0518 | 16.041MB
+  - 🇯🇵JP-172.104.65.137-0598 | 16.016MB
+  - 🇯🇵JP-139.162.98.142-0594 | 15.961MB
+  - 🇯🇵JP-139.162.98.142-1160 | 15.758MB
+  - 🇯🇵JP-172.104.99.99-0595 | 15.728MB
+  - 🇯🇵JP-3.112.1.191-0517 | 15.702MB
+  - 🇯🇵JP-139.162.87.45-0599 | 15.59MB
+  - 🇯🇵JP-139.162.77.223-0596 | 15.53MB
+  - 🇯🇵JP-172.104.99.99-1161 | 15.454MB
+  - 🇯🇵JP-139.162.87.45-1165 | 15.301MB
+  - 🇨🇳CN-157.254.193.251-0769 | 15.296MB
+  - 🇯🇵JP-43.206.104.6-0242 | 15.247MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-139.162.87.45-1031 | 24.051MB
-  - 🇯🇵JP-139.162.98.142-1026 | 23.945MB
-  - 🇯🇵JP-139.162.98.142-0647 | 23.941MB
-  - 🇯🇵JP-172.105.193.113-1029 | 23.885MB
-  - 🇯🇵JP-54.238.219.234-0178 | 22.91MB
-  - 🇯🇵JP-3.112.1.191-0179 | 22.361MB
-  - 🇯🇵JP-43.206.104.6-0590 | 21.744MB
-  - 🇯🇵JP-172.104.65.137-1030 | 20.246MB
-  - 🇰🇷KR-43.201.102.160-0174 | 17.664MB
-  - 🇬🇧GB-18.170.228.85-0874 | 16.773MB
-  - 🇬🇧GB-165.154.240.72-1037 | 14.046MB
-  - 🇬🇧GB-165.154.240.72-0658 | 13.99MB
-  - 🇬🇧GB-165.154.240.54-1038 | 13.965MB
+  - 🇯🇵JP-54.238.219.234-0516 | 15.144MB
+  - 🇨🇳CN-157.254.193.251-0770 | 14.855MB
+  - 🇯🇵JP-35.78.201.249-1137 | 14.028MB
+  - 🇰🇷KR-43.201.102.160-0512 | 13.505MB
+  - AE-165.154.241.217-0601 | 13.364MB
+  - AE-165.154.241.217-1167 | 13.13MB
+  - AE-165.154.241.144-1170 | 12.63MB
+  - 🇬🇧GB-165.154.240.72-0605 | 12.627MB
+  - AE-165.154.241.144-0604 | 12.535MB
+  - 🇬🇧GB-165.154.240.54-0606 | 12.46MB
+  - AE-165.154.241.7-0603 | 12.031MB
+  - AE-165.154.241.104-1168 | 11.992MB
+  - AE-165.154.241.7-1169 | 11.882MB
+  - AE-165.154.241.104-0602 | 11.78MB
+  - 🇮🇳IN-139.84.136.112-1173 | 11.064MB
+  - 🇮🇳IN-139.84.136.112-0607 | 11.052MB
+  - 🇭🇰HK-103.68.62.85-0416 | 10.641MB
+  - 🇨🇳CN-140.179.136.12-0154 | 10.125MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇬🇧GB-165.154.240.54-0659 | 13.895MB
-  - 🇸🇬SG-52.221.216.116-0154 | 13.849MB
-  - AE-165.154.241.144-0657 | 13.768MB
-  - AE-165.154.241.217-0654 | 13.701MB
-  - 🇸🇬SG-54.179.179.97-0153 | 13.679MB
-  - AE-165.154.241.144-1036 | 13.576MB
-  - AE-165.154.241.217-1033 | 13.36MB
-  - 🇯🇵JP-3.112.248.211-0180 | 13.25MB
-  - 🇸🇬SG-172.104.179.119-1032 | 12.816MB
-  - 🇸🇬SG-172.104.179.119-0653 | 12.718MB
-  - AE-165.154.241.7-0656 | 12.429MB
-  - AE-165.154.241.104-0655 | 12.407MB
-  - AE-165.154.241.104-1034 | 12.303MB
+  - 🇨🇳CN-140.179.136.12-0351 | 10.124MB
+  - 🇸🇬SG-54.179.179.97-0491 | 10.096MB
+  - 🇸🇬SG-52.221.216.116-0492 | 9.893MB
+  - PH-103.38.214.222-0429 | 8.928MB
+  - 🇸🇬SG-172.104.179.119-1166 | 8.853MB
+  - VN-103.124.92.48-0372 | 8.809MB
+  - 🇸🇬SG-172.104.179.119-0600 | 8.777MB
+  - 🇨🇳CN-140.179.136.12-0354 | 8.63MB
+  - VN-103.124.92.48-0374 | 8.563MB
+  - 🇨🇳CN-140.179.136.12-0152 | 8.443MB
+  - 🇨🇳CN-140.179.136.12-0349 | 8.412MB
+  - 🇨🇳CN-140.179.136.12-0643 | 7.955MB
+  - 🇨🇳CN-140.179.136.12-0641 | 7.914MB
+  - 🇨🇳CN-140.179.136.12-0646 | 7.698MB
+  - 🇨🇳TW-111.252.233.139-0400 | 6.401MB
+  - 🇨🇳TW-61.224.111.117-0399 | 5.992MB
+  - 🇨🇳CN-140.179.136.12-0157 | 4.896MB
+  - 🇬🇧GB-165.154.240.72-1171 | 4.389MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - AE-165.154.241.7-1035 | 12.281MB
-  - VN-103.124.92.48-0938 | 12.129MB
-  - 🇸🇬SG-139.162.43.159-0517 | 11.951MB
-  - VN-103.124.92.48-0936 | 11.755MB
-  - 🇮🇳IN-139.84.136.112-1039 | 11.683MB
-  - 🇮🇳IN-139.84.136.112-0660 | 11.499MB
-  - 🇯🇵JP-18.182.62.112-0615 | 2.79MB
-  - 🇯🇵JP-18.182.62.112-0576 | 0.547MB
-  - 🇯🇵JP-35.78.201.249-0797 | 0.547MB
-  - 🇯🇵JP-35.78.201.249-0270 | 0.43MB
-  - 🇯🇵JP-18.182.62.112-0782 | 0.429MB
-  - 🇯🇵JP-35.78.201.249-0630 | 0.412MB
-  - 🇯🇵JP-43.206.104.6-0269 | 0.372MB
-  - VN-103.167.196.48-0774 | 0.132MB
-  - 🇯🇵JP-185.160.24.45-0520 | 0.032MB
+  - 🇨🇳CN-43.153.19.100-0424 | 3.898MB
+  - 🇨🇳CN-43.156.53.93-0405 | 3.638MB
+  - 🇬🇧GB-165.154.240.54-1172 | 3.625MB
+  - 🇨🇳CN-43.153.192.171-0403 | 3.599MB
+  - 🇨🇳CN-43.153.208.52-0407 | 3.551MB
+  - 🇨🇳CN-43.156.16.221-0406 | 3.536MB
+  - 🇨🇳CN-43.159.38.60-0404 | 3.515MB
+  - 🇨🇳CN-43.154.178.239-0417 | 3.441MB
+  - 🇨🇳CN-43.156.14.82-0409 | 3.409MB
+  - 🇨🇳CN-43.154.223.111-0418 | 3.155MB
+  - 🇺🇸US-103.30.16.59-0422 | 3.061MB
+  - 🇨🇳CN-43.153.193.154-0408 | 2.495MB
+  - 🇭🇰HK-202.81.235.209-0415 | 2.187MB
+  - 🇷🇺RU-185.22.152.130-0676 | 1.817MB
+  - 🇦🇺AU-95.111.217.54-0420 | 1.633MB
+  - 🇭🇰HK-202.81.237.135-0419 | 0.69MB
+  - VN-103.167.196.48-0804 | 0.571MB
+  - 🇨🇳CN-116.63.142.205-0395 | 0.412MB
+  - 🇨🇳CN-101.33.235.173-0397 | 0.15MB
+  - 🇭🇰HK-103.166.127.139-0413 | 0.015MB
 rules:
 - MATCH,Global ©️
