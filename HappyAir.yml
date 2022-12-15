@@ -17,28 +17,42 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-165.3.122.219-0185 | 34.948MB
+- name: 🇺🇸US-165.3.122.219-0298 | 37.981MB
   server: zzus01.fuqiangren.com
   port: 20220
   type: trojan
   password: de2c97fc-02e7-43ee-b37d-551a0372e462
   sni: zzus01.fuqiangren.com
   skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0183 | 15.083MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: de2c97fc-02e7-43ee-b37d-551a0372e462
-  sni: zzjp01.fuqiangren.com
+- name: 🇯🇵JP-3.112.1.191-0678 | 15.46MB
+  server: jp03.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: a2a43511-e6e2-4e0d-8fe3-57f7452d05f2
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0184 | 13.405MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp03.170203.xyz
+- name: 🇨🇳CN-157.254.193.251-0297 | 14.956MB
   server: zzjp01.fuqiangren.com
   port: 20221
   type: trojan
   password: de2c97fc-02e7-43ee-b37d-551a0372e462
   sni: zzjp01.fuqiangren.com
   skip-cert-verify: false
-- name: 🇰🇷KR-43.201.102.160-0776 | 10.977MB
+- name: 🇨🇳CN-157.254.193.251-0296 | 14.663MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: de2c97fc-02e7-43ee-b37d-551a0372e462
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇰🇷KR-43.201.102.160-0677 | 11.755MB
   server: kr01.170203.xyz
   port: 45453
   type: vmess
@@ -52,7 +66,7 @@ proxies:
     path: /
     headers:
       Host: kr01.170203.xyz
-- name: 🇸🇬SG-52.221.216.116-0756 | 9.722MB
+- name: 🇸🇬SG-52.221.216.116-0657 | 9.662MB
   server: sg001.170203.xyz
   port: 43543
   type: vmess
@@ -66,7 +80,7 @@ proxies:
     path: /
     headers:
       Host: sg001.170203.xyz
-- name: 🇸🇬SG-13.213.72.127-0755 | 8.796MB
+- name: 🇸🇬SG-13.213.72.127-0656 | 9.582MB
   server: sg03.170203.xyz
   port: 43543
   type: vmess
@@ -80,8 +94,22 @@ proxies:
     path: /
     headers:
       Host: sg03.170203.xyz
-- name: VN-103.124.92.48-0919 | 8.687MB
+- name: VN-103.124.92.48-0219 | 9.302MB
   server: 103.124.92.48
+  port: 80
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: VN-103.167.199.74-0220 | 4.248MB
+  server: vn2.hello4g.pw
   port: 80
   type: vmess
   uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
@@ -150,30 +178,32 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-165.3.122.219-0185 | 34.948MB
+  - 🇺🇸US-165.3.122.219-0298 | 37.981MB
+  - 🇯🇵JP-3.112.1.191-0678 | 15.46MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-157.254.193.251-0183 | 15.083MB
+  - 🇨🇳CN-157.254.193.251-0297 | 14.956MB
+  - 🇨🇳CN-157.254.193.251-0296 | 14.663MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-157.254.193.251-0184 | 13.405MB
+  - 🇰🇷KR-43.201.102.160-0677 | 11.755MB
+  - 🇸🇬SG-52.221.216.116-0657 | 9.662MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-43.201.102.160-0776 | 10.977MB
-  - 🇸🇬SG-52.221.216.116-0756 | 9.722MB
-  - 🇸🇬SG-13.213.72.127-0755 | 8.796MB
-  - VN-103.124.92.48-0919 | 8.687MB
+  - 🇸🇬SG-13.213.72.127-0656 | 9.582MB
+  - VN-103.124.92.48-0219 | 9.302MB
+  - VN-103.167.199.74-0220 | 4.248MB
 rules:
 - MATCH,Global ©️
