@@ -17,85 +17,116 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-165.3.122.219-1288 | 57.103MB
+- name: 🇺🇸US-54.176.93.78-1196 | 279.744MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-54.176.244.106-0912 | 265.558MB
+  server: bgroup.node5.t.nodelist-gfwairport1.download
+  port: 50001
+  type: trojan
+  password: 501e4691-3868-483c-a379-c2e2c8e85741
+  skip-cert-verify: false
+- name: 🇺🇸US-54.67.19.107-0807 | 238.517MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-54.183.61.3-1197 | 232.396MB
+  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-13.56.200.151-0327 | 218.803MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-52.53.233.111-0917 | 177.604MB
+  server: bgroup.node5.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 501e4691-3868-483c-a379-c2e2c8e85741
+- name: 🇺🇸US-54.183.61.3-0797 | 75.361MB
+  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-165.3.122.219-1078 | 38.283MB
   server: zzus01.fuqiangren.com
   port: 20220
   type: trojan
   password: d2c85b5d-7d67-46d1-87be-52adc983d156
   sni: zzus01.fuqiangren.com
   skip-cert-verify: false
-- name: RELAY-172.67.140.132-0802 | 47.389MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 🇨🇳CN-157.254.193.251-1076 | 25.436MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: d2c85b5d-7d67-46d1-87be-52adc983d156
+  sni: zzjp01.fuqiangren.com
   skip-cert-verify: false
-  servername: RELAY-172.67.140.132-0802 | 47.389MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lvryzenkvm1gb.sharecentre.online
-- name: 🇯🇵JP-20.89.88.134-0876 | 21.417MB
-  server: dl-jp1.efyunpan.com
+- name: 🇨🇳CN-157.254.193.251-1077 | 25.323MB
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: d2c85b5d-7d67-46d1-87be-52adc983d156
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇯🇵JP-20.222.27.222-0675 | 24.979MB
+  server: jp.mjt001.com
   port: 443
   type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-jp.efyunpan.com
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  sni: jp.mjt001.com
   skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.237-0877 | 21.353MB
-  server: dl-jp2.efyunpan.com
+- name: 🇭🇰HK-20.239.89.46-0684 | 24.138MB
+  server: usla.mjt001.com
   port: 443
   type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-jp.efyunpan.com
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.237-0887 | 21.025MB
-  server: dl-us2.efyunpan.com
+- name: 🇯🇵JP-20.222.27.222-0678 | 16.489MB
+  server: kh.mjt001.com
   port: 443
   type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-us.efyunpan.com
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   skip-cert-verify: false
-- name: 🇯🇵JP-20.89.88.134-0886 | 20.715MB
-  server: dl-us1.efyunpan.com
+- name: 🇸🇬SG-13.229.62.74-0915 | 14.304MB
+  server: bgroup.node3.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 501e4691-3868-483c-a379-c2e2c8e85741
+- name: 🇯🇵JP-20.222.27.222-0681 | 12.203MB
+  server: kr.mjt001.com
   port: 443
   type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-us.efyunpan.com
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   skip-cert-verify: false
-- name: 🇯🇵JP-20.89.104.55-0888 | 20.017MB
-  server: dl-us3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-us.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.203-0889 | 19.844MB
-  server: dl-us4.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-us.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.104.55-0878 | 19.821MB
-  server: dl-jp3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-jp.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.203-0879 | 19.748MB
-  server: dl-jp4.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-jp.efyunpan.com
-  skip-cert-verify: false
-- name: 🇳🇱NL-163.172.220.71-0165 | 19.564MB
+- name: 🇳🇱NL-163.172.220.71-0720 | 11.823MB
   server: 163.172.220.71
   port: 6616
   type: vmess
@@ -107,120 +138,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇯🇵JP-20.89.107.237-0880 | 18.918MB
-  server: dl-kr1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ockrsl.efyunpan.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-1286 | 18.839MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: d2c85b5d-7d67-46d1-87be-52adc983d156
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.104.55-0881 | 18.224MB
-  server: dl-kr2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ockrcc.efyunpan.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-1287 | 18.212MB
-  server: zzjp01.fuqiangren.com
-  port: 20221
-  type: trojan
-  password: d2c85b5d-7d67-46d1-87be-52adc983d156
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.237-0922 | 15.259MB
-  server: dl-am1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ca.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.24.193.78-0867 | 15.187MB
-  server: dl-hk2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.239.58.163-0863 | 14.969MB
-  server: dl-hk1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.205.33.182-0868 | 13.885MB
-  server: dl-hk3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-16.162.143.136-0870 | 13.839MB
-  server: dl-hk5.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.104.55-0923 | 13.621MB
-  server: dl-am2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ca2.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.205.6.230-0869 | 13.489MB
-  server: dl-hk4.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.212.209.100-0883 | 13.128MB
-  server: dl-sg2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-sg.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-16.162.120.38-0871 | 13.089MB
-  server: dl-hk6.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.212.209.150-0882 | 13.073MB
-  server: dl-sg1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-sg.efyunpan.com
-  skip-cert-verify: false
-- name: RELAY-172.67.167.73-0803 | 12.457MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.167.73-0803 | 12.457MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp-ntt.sharecentre.online
-- name: CH-5.182.36.199-0158 | 12.318MB
+- name: CH-5.182.36.199-0713 | 11.375MB
   server: 5.182.36.199
   port: 6616
   type: vmess
@@ -232,62 +150,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬SG-20.205.234.152-0891 | 12.286MB
-  server: dl-eu2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-in2.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0124 | 12.055MB
-  server: vn.mjt001.com
-  port: 443
-  type: trojan
-  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0133 | 11.997MB
-  server: ru.mjt001.com
-  port: 443
-  type: trojan
-  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: ru.mjt001.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.205.234.152-0884 | 11.98MB
-  server: dl-sg3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-sg.efyunpan.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.205.239.255-0885 | 11.915MB
-  server: dl-sg4.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-sg.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0125 | 11.72MB
-  server: hinet.mjt001.com
-  port: 443
-  type: trojan
-  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: hinet.mjt001.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.212.209.100-0890 | 11.299MB
-  server: dl-eu1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-in.efyunpan.com
-  skip-cert-verify: false
-- name: 🇸🇬SG-20.205.234.152-0895 | 10.602MB
-  server: dl-eu2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ae2.efyunpan.com
-  skip-cert-verify: false
-- name: VN-103.124.92.48-0992 | 10.233MB
+- name: VN-103.124.92.48-0827 | 10.85MB
   server: 103.124.92.48
   port: 443
   type: vmess
@@ -301,116 +164,27 @@ proxies:
     path: /
     headers:
       Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: FI-37.143.129.238-0169 | 10.039MB
-  server: 37.143.129.238
-  port: 6616
-  type: vmess
-  uuid: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬SG-20.205.234.152-0919 | 9.934MB
-  server: dl-eu2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-tr.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0120 | 9.62MB
-  server: jp.mjt001.com
+- name: 🇭🇰HK-20.239.140.228-0687 | 9.74MB
+  server: lux.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: jp.mjt001.com
   skip-cert-verify: false
-- name: 🇭🇰HK-20.239.140.228-0130 | 8.983MB
+- name: 🇯🇵JP-20.222.27.222-0685 | 9.048MB
   server: de.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   sni: de.mjt001.com
   skip-cert-verify: false
-- name: 🇯🇵JP-20.89.107.237-0874 | 8.772MB
-  server: dl-tw3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-tw.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.89.104.55-0927 | 8.708MB
-  server: dl-am2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-cl.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0128 | 7.333MB
-  server: kz.mjt001.com
+- name: 🇸🇬SG-20.24.185.52-0689 | 7.249MB
+  server: tr.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  sni: tr.mjt001.com
   skip-cert-verify: false
-- name: 🇨🇳TW-36.227.208.22-0602 | 6.468MB
-  server: tw01.henet.top
-  port: 20000
-  type: vmess
-  uuid: 0ab6879a-f523-4f3a-9008-6bee1f08f511
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cctv.com
-- name: 🇨🇳TW-1.162.31.238-0146 | 6.215MB
-  server: twipv4.useipv6now.com
-  port: 6617
-  type: vmess
-  uuid: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: twipv4.useipv6now.com
-- name: 🇸🇬SG-20.205.234.152-0903 | 5.582MB
-  server: dl-eu2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-de.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.24.193.78-0920 | 5.542MB
-  server: core1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ru.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.24.193.78-0872 | 5.541MB
-  server: dl-tw1.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-tw.efyunpan.com
-  skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0131 | 5.421MB
-  server: uk.mjt001.com
-  port: 443
-  type: trojan
-  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: uk.mjt001.com
-  skip-cert-verify: false
-- name: 🇨🇳TW-36.227.229.106-0603 | 5.217MB
+- name: 🇨🇳TW-36.227.229.106-0372 | 7.065MB
   server: tw02.henet.top
   port: 20000
   type: vmess
@@ -424,41 +198,11 @@ proxies:
     path: /
     headers:
       Host: cctv.com
-- name: 🇭🇰HK-20.205.33.182-0921 | 4.11MB
-  server: core2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-ru.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.239.140.228-0134 | 2.747MB
-  server: tr.mjt001.com
-  port: 443
-  type: trojan
-  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: tr.mjt001.com
-  skip-cert-verify: false
-- name: 🇺🇸US-54.183.61.3-1146 | 2.526MB
-  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
-  port: 52356
+- name: 🇨🇳TW-36.227.208.22-0371 | 6.982MB
+  server: tw01.henet.top
+  port: 20000
   type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.205.33.182-0873 | 2.155MB
-  server: dl-tw2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-tw.efyunpan.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-18.162.123.156-0955 | 1.126MB
-  server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 0ab6879a-f523-4f3a-9008-6bee1f08f511
   alterId: 0
   cipher: auto
   tls: false
@@ -467,15 +211,40 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win
-- name: 🇯🇵JP-20.89.104.55-0875 | 0.567MB
-  server: dl-tw4.efyunpan.com
+      Host: cctv.com
+- name: FI-37.143.129.238-0724 | 6.455MB
+  server: 37.143.129.238
+  port: 6616
+  type: vmess
+  uuid: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇨🇳TW-1.162.31.238-0701 | 3.824MB
+  server: twipv4.useipv6now.com
+  port: 6617
+  type: vmess
+  uuid: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: twipv4.useipv6now.com
+- name: 🇯🇵JP-20.222.27.222-0679 | 3.514MB
+  server: vn.mjt001.com
   port: 443
   type: trojan
-  password: 22533afd-1b9d-459c-9ea2-96620c0a4e5c
-  sni: data-tw.efyunpan.com
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   skip-cert-verify: false
-- name: RELAY-172.67.167.73-0800 | 0.384MB
+- name: RELAY-172.67.35.54-0465 | 3.172MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -484,48 +253,131 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.167.73-0800 | 0.384MB
+  servername: RELAY-172.67.35.54-0465 | 3.172MB
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: opc-jp.sharecentre.online
-- name: 🇯🇵JP-20.222.27.222-0123 | 0.299MB
-  server: kh.mjt001.com
+      Host: jp-ntt.sharecentre.online
+- name: 🇯🇵JP-18.182.19.237-0913 | 0.433MB
+  server: bgroup.node1.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 501e4691-3868-483c-a379-c2e2c8e85741
+- name: 🇯🇵JP-43.207.54.52-1191 | 0.425MB
+  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-13.112.124.131-0643 | 0.422MB
+  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-20.222.27.222-0686 | 0.371MB
+  server: uk.mjt001.com
+  port: 443
+  type: trojan
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  sni: uk.mjt001.com
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.239.140.228-0688 | 0.369MB
+  server: ru.mjt001.com
+  port: 443
+  type: trojan
+  password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  sni: ru.mjt001.com
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.180.248.94-1201 | 0.365MB
+  server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-20.222.27.222-0683 | 0.344MB
+  server: kz.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0122 | 0.298MB
-  server: my.mjt001.com
+- name: 🇭🇰HK-20.239.140.228-0680 | 0.343MB
+  server: hinet.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
-  sni: my.mjt001.com
+  sni: hinet.mjt001.com
   skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0132 | 0.291MB
-  server: lux.mjt001.com
+- name: 🇯🇵JP-20.222.27.222-0676 | 0.34MB
+  server: sg.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+  sni: sg.mjt001.com
   skip-cert-verify: false
-- name: 🇯🇵JP-20.222.27.222-0135 | 0.287MB
+- name: 🇭🇰HK-20.239.140.228-0690 | 0.308MB
   server: ar.mjt001.com
   port: 443
   type: trojan
   password: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
   sni: ar.mjt001.com
   skip-cert-verify: false
-- name: 🇭🇰HK-16.162.190.116-1094 | 0.233MB
-  server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win
-  port: 52356
+- name: RELAY-172.67.200.92-0461 | 0.179MB
+  server: cf-lt.sharecentre.online
+  port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.200.92-0461 | 0.179MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk.sharecentre.online
+- name: RELAY-172.67.189.144-0464 | 0.138MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.189.144-0464 | 0.138MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+- name: VN-103.167.196.48-1007 | 0.094MB
+  server: 103.167.196.48
+  port: 80
+  type: vmess
+  uuid: 56716a96-a265-448c-8969-03e626889580
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇭🇰HK-20.239.140.228-0127 | 0.133MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: 🇭🇰HK-20.239.140.228-0682 | 0.056MB
   server: mn.mjt001.com
   port: 443
   type: trojan
@@ -587,86 +439,64 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-165.3.122.219-1288 | 57.103MB
-  - RELAY-172.67.140.132-0802 | 47.389MB
-  - 🇯🇵JP-20.89.88.134-0876 | 21.417MB
-  - 🇯🇵JP-20.89.107.237-0877 | 21.353MB
-  - 🇯🇵JP-20.89.107.237-0887 | 21.025MB
-  - 🇯🇵JP-20.89.88.134-0886 | 20.715MB
-  - 🇯🇵JP-20.89.104.55-0888 | 20.017MB
-  - 🇯🇵JP-20.89.107.203-0889 | 19.844MB
-  - 🇯🇵JP-20.89.104.55-0878 | 19.821MB
-  - 🇯🇵JP-20.89.107.203-0879 | 19.748MB
-  - 🇳🇱NL-163.172.220.71-0165 | 19.564MB
-  - 🇯🇵JP-20.89.107.237-0880 | 18.918MB
-  - 🇨🇳CN-157.254.193.251-1286 | 18.839MB
-  - 🇯🇵JP-20.89.104.55-0881 | 18.224MB
-  - 🇨🇳CN-157.254.193.251-1287 | 18.212MB
+  - 🇺🇸US-54.176.93.78-1196 | 279.744MB
+  - 🇺🇸US-54.176.244.106-0912 | 265.558MB
+  - 🇺🇸US-54.67.19.107-0807 | 238.517MB
+  - 🇺🇸US-54.183.61.3-1197 | 232.396MB
+  - 🇺🇸US-13.56.200.151-0327 | 218.803MB
+  - 🇺🇸US-52.53.233.111-0917 | 177.604MB
+  - 🇺🇸US-54.183.61.3-0797 | 75.361MB
+  - 🇺🇸US-165.3.122.219-1078 | 38.283MB
+  - 🇨🇳CN-157.254.193.251-1076 | 25.436MB
+  - 🇨🇳CN-157.254.193.251-1077 | 25.323MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-20.89.107.237-0922 | 15.259MB
-  - 🇭🇰HK-20.24.193.78-0867 | 15.187MB
-  - 🇭🇰HK-20.239.58.163-0863 | 14.969MB
-  - 🇭🇰HK-20.205.33.182-0868 | 13.885MB
-  - 🇭🇰HK-16.162.143.136-0870 | 13.839MB
-  - 🇯🇵JP-20.89.104.55-0923 | 13.621MB
-  - 🇭🇰HK-20.205.6.230-0869 | 13.489MB
-  - 🇸🇬SG-20.212.209.100-0883 | 13.128MB
-  - 🇭🇰HK-16.162.120.38-0871 | 13.089MB
-  - 🇸🇬SG-20.212.209.150-0882 | 13.073MB
-  - RELAY-172.67.167.73-0803 | 12.457MB
-  - CH-5.182.36.199-0158 | 12.318MB
-  - 🇸🇬SG-20.205.234.152-0891 | 12.286MB
-  - 🇯🇵JP-20.222.27.222-0124 | 12.055MB
-  - 🇯🇵JP-20.222.27.222-0133 | 11.997MB
+  - 🇯🇵JP-20.222.27.222-0675 | 24.979MB
+  - 🇭🇰HK-20.239.89.46-0684 | 24.138MB
+  - 🇯🇵JP-20.222.27.222-0678 | 16.489MB
+  - 🇸🇬SG-13.229.62.74-0915 | 14.304MB
+  - 🇯🇵JP-20.222.27.222-0681 | 12.203MB
+  - 🇳🇱NL-163.172.220.71-0720 | 11.823MB
+  - CH-5.182.36.199-0713 | 11.375MB
+  - VN-103.124.92.48-0827 | 10.85MB
+  - 🇭🇰HK-20.239.140.228-0687 | 9.74MB
+  - 🇯🇵JP-20.222.27.222-0685 | 9.048MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-20.205.234.152-0884 | 11.98MB
-  - 🇸🇬SG-20.205.239.255-0885 | 11.915MB
-  - 🇯🇵JP-20.222.27.222-0125 | 11.72MB
-  - 🇸🇬SG-20.212.209.100-0890 | 11.299MB
-  - 🇸🇬SG-20.205.234.152-0895 | 10.602MB
-  - VN-103.124.92.48-0992 | 10.233MB
-  - FI-37.143.129.238-0169 | 10.039MB
-  - 🇸🇬SG-20.205.234.152-0919 | 9.934MB
-  - 🇯🇵JP-20.222.27.222-0120 | 9.62MB
-  - 🇭🇰HK-20.239.140.228-0130 | 8.983MB
-  - 🇯🇵JP-20.89.107.237-0874 | 8.772MB
-  - 🇯🇵JP-20.89.104.55-0927 | 8.708MB
-  - 🇯🇵JP-20.222.27.222-0128 | 7.333MB
-  - 🇨🇳TW-36.227.208.22-0602 | 6.468MB
-  - 🇨🇳TW-1.162.31.238-0146 | 6.215MB
+  - 🇸🇬SG-20.24.185.52-0689 | 7.249MB
+  - 🇨🇳TW-36.227.229.106-0372 | 7.065MB
+  - 🇨🇳TW-36.227.208.22-0371 | 6.982MB
+  - FI-37.143.129.238-0724 | 6.455MB
+  - 🇨🇳TW-1.162.31.238-0701 | 3.824MB
+  - 🇯🇵JP-20.222.27.222-0679 | 3.514MB
+  - RELAY-172.67.35.54-0465 | 3.172MB
+  - 🇯🇵JP-18.182.19.237-0913 | 0.433MB
+  - 🇯🇵JP-43.207.54.52-1191 | 0.425MB
+  - 🇯🇵JP-13.112.124.131-0643 | 0.422MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-20.205.234.152-0903 | 5.582MB
-  - 🇭🇰HK-20.24.193.78-0920 | 5.542MB
-  - 🇭🇰HK-20.24.193.78-0872 | 5.541MB
-  - 🇯🇵JP-20.222.27.222-0131 | 5.421MB
-  - 🇨🇳TW-36.227.229.106-0603 | 5.217MB
-  - 🇭🇰HK-20.205.33.182-0921 | 4.11MB
-  - 🇭🇰HK-20.239.140.228-0134 | 2.747MB
-  - 🇺🇸US-54.183.61.3-1146 | 2.526MB
-  - 🇭🇰HK-20.205.33.182-0873 | 2.155MB
-  - 🇭🇰HK-18.162.123.156-0955 | 1.126MB
-  - 🇯🇵JP-20.89.104.55-0875 | 0.567MB
-  - RELAY-172.67.167.73-0800 | 0.384MB
-  - 🇯🇵JP-20.222.27.222-0123 | 0.299MB
-  - 🇯🇵JP-20.222.27.222-0122 | 0.298MB
-  - 🇯🇵JP-20.222.27.222-0132 | 0.291MB
-  - 🇯🇵JP-20.222.27.222-0135 | 0.287MB
-  - 🇭🇰HK-16.162.190.116-1094 | 0.233MB
-  - 🇭🇰HK-20.239.140.228-0127 | 0.133MB
+  - 🇯🇵JP-20.222.27.222-0686 | 0.371MB
+  - 🇭🇰HK-20.239.140.228-0688 | 0.369MB
+  - 🇯🇵JP-18.180.248.94-1201 | 0.365MB
+  - 🇯🇵JP-20.222.27.222-0683 | 0.344MB
+  - 🇭🇰HK-20.239.140.228-0680 | 0.343MB
+  - 🇯🇵JP-20.222.27.222-0676 | 0.34MB
+  - 🇭🇰HK-20.239.140.228-0690 | 0.308MB
+  - RELAY-172.67.200.92-0461 | 0.179MB
+  - RELAY-172.67.189.144-0464 | 0.138MB
+  - VN-103.167.196.48-1007 | 0.094MB
+  - 🇭🇰HK-20.239.140.228-0682 | 0.056MB
 rules:
 - MATCH,Global ©️
