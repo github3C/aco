@@ -17,102 +17,16 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-13.56.250.190-0613 | 183.735MB
-  server: bgroup.node5.s.nodelist-gfwairport1.download
-  port: 50001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 501e4691-3868-483c-a379-c2e2c8e85741
-- name: 🇺🇸US-13.56.209.224-0801 | 150.043MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.177.125.250-0763 | 121.505MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
-  port: 443
+- name: 🇺🇸US-18.144.46.9-0763 | 41.331MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
   type: vmess
   uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇺🇸US-18.144.46.9-0827 | 104.152MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-165.3.122.219-0971 | 95.188MB
-  server: zzus01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
-  sni: zzus01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇺🇸US-54.193.85.228-0339 | 67.228MB
-  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.177.125.250-0324 | 62.418MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
-  port: 443
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-13.56.209.224-1103 | 58.145MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.67.217.97-0213 | 43.481MB
-  server: do-3.heima-bot.tech
-  port: 2086
-  type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: do-3.heima-bot.tech
-- name: RELAY-104.16.88.88-0211 | 42.973MB
-  server: 104.16.88.88
-  port: 8080
-  type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: do-1.heima-bot.tech
-- name: RELAY-104.21.93.252-0212 | 42.625MB
+- name: RELAY-104.21.93.252-0913 | 37.453MB
   server: do-2.heima-bot.tech
   port: 2082
   type: vmess
@@ -126,7 +40,7 @@ proxies:
     path: /
     headers:
       Host: do-2.heima-bot.tech
-- name: RELAY-172.67.102.229-0395 | 42.617MB
+- name: RELAY-172.67.244.166-0897 | 37.122MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -135,50 +49,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.102.229-0395 | 42.617MB
+  servername: RELAY-172.67.244.166-0897 | 37.122MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: sg-gcore.sharecentre.online
-- name: 🇺🇸US-18.144.46.9-1129 | 32.258MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0970 | 26.259MB
-  server: zzjp01.fuqiangren.com
-  port: 20221
-  type: trojan
-  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0969 | 26.024MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: RELAY-172.67.217.97-0210 | 13.729MB
-  server: do-sg-2.heima-bot.tech
-  port: 2082
-  type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: do-sg-2.heima-bot.tech
-- name: RELAY-104.16.88.88-0209 | 13.333MB
+- name: RELAY-104.16.88.88-0912 | 37.01MB
   server: 104.16.88.88
   port: 8080
   type: vmess
@@ -191,12 +68,19 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: do-sg-1.heima-bot.tech
-- name: VN-103.124.92.48-0285 | 11.856MB
-  server: 103.124.92.48
-  port: 80
+      Host: do-1.heima-bot.tech
+- name: 🇺🇸US-165.3.122.219-0314 | 36.177MB
+  server: zzus01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
+  sni: zzus01.fuqiangren.com
+  skip-cert-verify: false
+- name: RELAY-104.21.93.252-0914 | 35.381MB
+  server: do-3.heima-bot.tech
+  port: 2086
   type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
   alterId: 0
   cipher: auto
   tls: false
@@ -205,22 +89,183 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: dl.kgvn.garenanow.com
-- name: VN-103.124.92.48-0287 | 11.129MB
-  server: 103.124.92.48
+      Host: do-3.heima-bot.tech
+- name: IE-34.244.156.138-0743 | 34.754MB
+  server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win
+  port: 15092
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇬🇧GB-13.40.87.6-0741 | 32.873MB
+  server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win
+  port: 43566
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-34.221.131.93-0740 | 32.152MB
+  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
+  port: 10392
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇫🇷FR-35.180.198.18-0742 | 31.359MB
+  server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win
+  port: 12659
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-157.254.193.251-0312 | 15.359MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇰🇷KR-43.200.70.62-0750 | 13.174MB
+  server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: RELAY-172.67.190.178-0896 | 13.157MB
+  server: cf-lt.sharecentre.online
   port: 443
   type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.190.178-0896 | 13.157MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: opc-jp.sharecentre.online
+- name: 🇰🇷KR-52.78.245.176-0736 | 12.862MB
+  server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇰🇷KR-3.38.180.40-0735 | 12.845MB
+  server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win
+  port: 80
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-157.254.193.251-0313 | 11.648MB
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: c66e2e0a-5bdf-4fdb-9e28-805e99a38b02
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: 🇭🇰HK-18.166.67.2-0754 | 11.357MB
+  server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-54.193.85.228-0753 | 11.063MB
+  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-18.166.15.46-0730 | 10.829MB
+  server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇺🇸US-154.17.22.56-0598 | 8.417MB
+      Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win
+- name: 🇭🇰HK-18.163.50.204-0755 | 10.809MB
+  server: 00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬SG-13.212.158.24-0758 | 10.498MB
+  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬SG-13.214.135.62-0759 | 9.997MB
+  server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬SG-54.169.200.239-0734 | 9.906MB
+  server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: RELAY-172.67.119.15-0898 | 9.831MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.119.15-0898 | 9.831MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+- name: 🇺🇸US-154.17.22.56-0462 | 8.95MB
   server: 154.17.22.56
   port: 8083
   type: vmess
@@ -234,7 +279,35 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0601 | 7.664MB
+- name: RELAY-104.16.88.88-0910 | 8.409MB
+  server: 104.16.88.88
+  port: 8080
+  type: vmess
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: do-sg-1.heima-bot.tech
+- name: RELAY-104.21.93.252-0911 | 8.046MB
+  server: do-sg-2.heima-bot.tech
+  port: 2082
+  type: vmess
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: do-sg-2.heima-bot.tech
+- name: 🇨🇳CN-111.6.86.74-0465 | 7.081MB
   server: 111.6.86.74
   port: 6666
   type: vmess
@@ -248,30 +321,7 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇺🇸US-34.221.131.93-0326 | 7.263MB
-  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
-  port: 10392
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: VN-103.167.199.74-0288 | 5.847MB
-  server: vn2.hello4g.pw
-  port: 443
-  type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇨🇳CN-111.6.86.74-0591 | 5.769MB
+- name: 🇨🇳CN-111.6.86.74-0455 | 5.993MB
   server: 111.6.86.74
   port: 9094
   type: vmess
@@ -285,9 +335,9 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0593 | 5.713MB
+- name: 🇨🇳CN-111.6.86.74-0460 | 5.781MB
   server: 111.6.86.74
-  port: 7777
+  port: 10001
   type: vmess
   uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
   alterId: 0
@@ -299,84 +349,7 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇺🇸US-34.221.131.93-0765 | 5.684MB
-  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
-  port: 10392
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-34.221.131.93-0804 | 5.08MB
-  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
-  port: 10392
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.67.197.126-0394 | 3.806MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.197.126-0394 | 3.806MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: opc-jp.sharecentre.online
-- name: RELAY-172.64.88.3-0396 | 3.595MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.64.88.3-0396 | 3.595MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lvryzenkvm1gb.sharecentre.online
-- name: RELAY-172.64.88.3-0397 | 2.403MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.64.88.3-0397 | 2.403MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp-ntt.sharecentre.online
-- name: 🇰🇷KR-3.35.19.253-0205 | 1.572MB
-  server: v-aws-sel-1.heima-bot.tech
-  port: 7771
-  type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v-aws-sel-1.heima-bot.tech
-- name: 🇰🇷KR-13.209.81.232-0208 | 1.557MB
+- name: 🇰🇷KR-13.209.81.232-0909 | 5.176MB
   server: v-aws-sel-4.heima-bot.tech
   port: 7774
   type: vmess
@@ -390,49 +363,36 @@ proxies:
     path: /
     headers:
       Host: v-aws-sel-4.heima-bot.tech
-- name: 🇰🇷KR-13.209.81.232-0207 | 1.522MB
-  server: v-aws-sel-3.heima-bot.tech
-  port: 7773
+- name: VN-103.167.199.74-0662 | 4.122MB
+  server: vn2.hello4g.pw
+  port: 443
   type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: v-aws-sel-3.heima-bot.tech
-- name: 🇰🇷KR-3.35.19.253-0206 | 1.522MB
-  server: v-aws-sel-2.heima-bot.tech
-  port: 7772
+      Host: cn.e.pic.ak.mangatoon.akamaized.net
+- name: RELAY-172.67.244.166-0899 | 3.063MB
+  server: cf-lt.sharecentre.online
+  port: 443
   type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
+  servername: RELAY-172.67.244.166-0899 | 3.063MB
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: v-aws-sel-2.heima-bot.tech
-- name: 🇯🇵JP-3.113.16.8-0202 | 0.94MB
-  server: v-aws-tk-2.heima-bot.tech
-  port: 7772
-  type: vmess
-  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v-aws-tk-2.heima-bot.tech
-- name: 🇯🇵JP-3.113.16.8-0201 | 0.884MB
+      Host: jp-ntt.sharecentre.online
+- name: 🇯🇵JP-3.113.16.8-0902 | 2.128MB
   server: v-aws-tk-1.heima-bot.tech
   port: 7771
   type: vmess
@@ -446,79 +406,64 @@ proxies:
     path: /
     headers:
       Host: v-aws-tk-1.heima-bot.tech
-- name: 🇯🇵JP-35.78.83.160-1122 | 0.438MB
-  server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win
+- name: 🇨🇳CN-111.6.86.74-0457 | 1.974MB
+  server: 111.6.86.74
+  port: 7777
+  type: vmess
+  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.bing.com
+- name: 🇰🇷KR-3.35.19.253-0907 | 1.559MB
+  server: v-aws-sel-2.heima-bot.tech
+  port: 7772
+  type: vmess
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v-aws-sel-2.heima-bot.tech
+- name: 🇰🇷KR-3.35.19.253-0906 | 1.526MB
+  server: v-aws-sel-1.heima-bot.tech
+  port: 7771
+  type: vmess
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v-aws-sel-1.heima-bot.tech
+- name: 🇺🇸US-13.56.250.190-1183 | 0.787MB
+  server: bgroup.node5.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 501e4691-3868-483c-a379-c2e2c8e85741
+- name: 🇺🇸US-54.153.17.237-0107 | 0.766MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
   port: 12356
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇯🇵JP-54.65.189.69-1098 | 0.43MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
-  port: 443
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.181.216.46-1113 | 0.427MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.181.216.46-0772 | 0.427MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-54.65.189.69-0757 | 0.422MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
-  port: 443
-  type: vmess
-  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-35.78.83.160-0277 | 0.375MB
-  server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-52.194.224.144-0317 | 0.372MB
-  server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.181.216.46-0333 | 0.36MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.64.88.3-0393 | 0.219MB
+- name: RELAY-172.67.244.166-0895 | 0.517MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -527,12 +472,26 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.64.88.3-0393 | 0.219MB
+  servername: RELAY-172.67.244.166-0895 | 0.517MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hk.sharecentre.online
+- name: 🇯🇵JP-3.113.16.8-0903 | 0.345MB
+  server: v-aws-tk-2.heima-bot.tech
+  port: 7772
+  type: vmess
+  uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v-aws-tk-2.heima-bot.tech
 proxy-groups:
 - name: Global ©️
   type: select
@@ -589,68 +548,64 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-13.56.250.190-0613 | 183.735MB
-  - 🇺🇸US-13.56.209.224-0801 | 150.043MB
-  - 🇺🇸US-54.177.125.250-0763 | 121.505MB
-  - 🇺🇸US-18.144.46.9-0827 | 104.152MB
-  - 🇺🇸US-165.3.122.219-0971 | 95.188MB
-  - 🇺🇸US-54.193.85.228-0339 | 67.228MB
-  - 🇺🇸US-54.177.125.250-0324 | 62.418MB
-  - 🇺🇸US-13.56.209.224-1103 | 58.145MB
-  - RELAY-172.67.217.97-0213 | 43.481MB
-  - RELAY-104.16.88.88-0211 | 42.973MB
-  - RELAY-104.21.93.252-0212 | 42.625MB
+  - 🇺🇸US-18.144.46.9-0763 | 41.331MB
+  - RELAY-104.21.93.252-0913 | 37.453MB
+  - RELAY-172.67.244.166-0897 | 37.122MB
+  - RELAY-104.16.88.88-0912 | 37.01MB
+  - 🇺🇸US-165.3.122.219-0314 | 36.177MB
+  - RELAY-104.21.93.252-0914 | 35.381MB
+  - IE-34.244.156.138-0743 | 34.754MB
+  - 🇬🇧GB-13.40.87.6-0741 | 32.873MB
+  - 🇺🇸US-34.221.131.93-0740 | 32.152MB
+  - 🇫🇷FR-35.180.198.18-0742 | 31.359MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.102.229-0395 | 42.617MB
-  - 🇺🇸US-18.144.46.9-1129 | 32.258MB
-  - 🇨🇳CN-157.254.193.251-0970 | 26.259MB
-  - 🇨🇳CN-157.254.193.251-0969 | 26.024MB
-  - RELAY-172.67.217.97-0210 | 13.729MB
-  - RELAY-104.16.88.88-0209 | 13.333MB
-  - VN-103.124.92.48-0285 | 11.856MB
-  - VN-103.124.92.48-0287 | 11.129MB
-  - 🇺🇸US-154.17.22.56-0598 | 8.417MB
-  - 🇨🇳CN-111.6.86.74-0601 | 7.664MB
-  - 🇺🇸US-34.221.131.93-0326 | 7.263MB
+  - 🇨🇳CN-157.254.193.251-0312 | 15.359MB
+  - 🇰🇷KR-43.200.70.62-0750 | 13.174MB
+  - RELAY-172.67.190.178-0896 | 13.157MB
+  - 🇰🇷KR-52.78.245.176-0736 | 12.862MB
+  - 🇰🇷KR-3.38.180.40-0735 | 12.845MB
+  - 🇨🇳CN-157.254.193.251-0313 | 11.648MB
+  - 🇭🇰HK-18.166.67.2-0754 | 11.357MB
+  - 🇺🇸US-54.193.85.228-0753 | 11.063MB
+  - 🇭🇰HK-18.166.15.46-0730 | 10.829MB
+  - 🇭🇰HK-18.163.50.204-0755 | 10.809MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - VN-103.167.199.74-0288 | 5.847MB
-  - 🇨🇳CN-111.6.86.74-0591 | 5.769MB
-  - 🇨🇳CN-111.6.86.74-0593 | 5.713MB
-  - 🇺🇸US-34.221.131.93-0765 | 5.684MB
-  - 🇺🇸US-34.221.131.93-0804 | 5.08MB
-  - RELAY-172.67.197.126-0394 | 3.806MB
-  - RELAY-172.64.88.3-0396 | 3.595MB
-  - RELAY-172.64.88.3-0397 | 2.403MB
-  - 🇰🇷KR-3.35.19.253-0205 | 1.572MB
-  - 🇰🇷KR-13.209.81.232-0208 | 1.557MB
-  - 🇰🇷KR-13.209.81.232-0207 | 1.522MB
+  - 🇸🇬SG-13.212.158.24-0758 | 10.498MB
+  - 🇸🇬SG-13.214.135.62-0759 | 9.997MB
+  - 🇸🇬SG-54.169.200.239-0734 | 9.906MB
+  - RELAY-172.67.119.15-0898 | 9.831MB
+  - 🇺🇸US-154.17.22.56-0462 | 8.95MB
+  - RELAY-104.16.88.88-0910 | 8.409MB
+  - RELAY-104.21.93.252-0911 | 8.046MB
+  - 🇨🇳CN-111.6.86.74-0465 | 7.081MB
+  - 🇨🇳CN-111.6.86.74-0455 | 5.993MB
+  - 🇨🇳CN-111.6.86.74-0460 | 5.781MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-3.35.19.253-0206 | 1.522MB
-  - 🇯🇵JP-3.113.16.8-0202 | 0.94MB
-  - 🇯🇵JP-3.113.16.8-0201 | 0.884MB
-  - 🇯🇵JP-35.78.83.160-1122 | 0.438MB
-  - 🇯🇵JP-54.65.189.69-1098 | 0.43MB
-  - 🇯🇵JP-18.181.216.46-1113 | 0.427MB
-  - 🇯🇵JP-18.181.216.46-0772 | 0.427MB
-  - 🇯🇵JP-54.65.189.69-0757 | 0.422MB
-  - 🇯🇵JP-35.78.83.160-0277 | 0.375MB
-  - 🇯🇵JP-52.194.224.144-0317 | 0.372MB
-  - 🇯🇵JP-18.181.216.46-0333 | 0.36MB
-  - RELAY-172.64.88.3-0393 | 0.219MB
+  - 🇰🇷KR-13.209.81.232-0909 | 5.176MB
+  - VN-103.167.199.74-0662 | 4.122MB
+  - RELAY-172.67.244.166-0899 | 3.063MB
+  - 🇯🇵JP-3.113.16.8-0902 | 2.128MB
+  - 🇨🇳CN-111.6.86.74-0457 | 1.974MB
+  - 🇰🇷KR-3.35.19.253-0907 | 1.559MB
+  - 🇰🇷KR-3.35.19.253-0906 | 1.526MB
+  - 🇺🇸US-13.56.250.190-1183 | 0.787MB
+  - 🇺🇸US-54.153.17.237-0107 | 0.766MB
+  - RELAY-172.67.244.166-0895 | 0.517MB
+  - 🇯🇵JP-3.113.16.8-0903 | 0.345MB
 rules:
 - MATCH,Global ©️
