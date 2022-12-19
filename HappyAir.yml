@@ -17,28 +17,72 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-165.3.122.219-0248 | 26.517MB
+- name: RELAY-172.67.140.246-647 | 52.805MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.140.246-647 | 52.805MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+- name: 🇺🇸US-165.3.122.219-670 | 25.563MB
   server: zzus01.fuqiangren.com
   port: 20220
   type: trojan
   password: ca475219-6608-4c24-8b5e-a61293651e14
   sni: zzus01.fuqiangren.com
   skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0246 | 19.491MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: ca475219-6608-4c24-8b5e-a61293651e14
-  sni: zzjp01.fuqiangren.com
+- name: RELAY-172.67.140.246-646 | 21.077MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0247 | 18.332MB
+  servername: RELAY-172.67.140.246-646 | 21.077MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-gcore.sharecentre.online
+- name: 🇨🇳CN-157.254.193.251-669 | 19.944MB
   server: zzjp01.fuqiangren.com
   port: 20221
   type: trojan
   password: ca475219-6608-4c24-8b5e-a61293651e14
   sni: zzjp01.fuqiangren.com
   skip-cert-verify: false
-- name: VN-103.124.92.48-0507 | 9.197MB
+- name: 🇨🇳CN-157.254.193.251-668 | 19.271MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: ca475219-6608-4c24-8b5e-a61293651e14
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: VN-103.124.92.48-067 | 11.321MB
+  server: 103.124.92.48
+  port: 80
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: VN-103.124.92.48-069 | 10.589MB
   server: 103.124.92.48
   port: 443
   type: vmess
@@ -52,7 +96,7 @@ proxies:
     path: /
     headers:
       Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: RELAY-172.64.135.211-0800 | 6.527MB
+- name: RELAY-172.67.140.246-648 | 9.328MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -61,91 +105,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.64.135.211-0800 | 6.527MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-gcore.sharecentre.online
-- name: 🇺🇸US-54.215.123.128-0349 | 3.854MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-18.144.46.9-0547 | 2.582MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.193.85.228-0833 | 2.565MB
-  server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-18.144.46.9-0843 | 2.563MB
-  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.153.17.237-0359 | 2.527MB
-  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.153.17.237-0546 | 2.421MB
-  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.215.123.128-0536 | 2.405MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.64.135.211-0802 | 1.422MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.64.135.211-0802 | 1.422MB
+  servername: RELAY-172.67.140.246-648 | 9.328MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: jp-ntt.sharecentre.online
-- name: RELAY-172.67.209.115-0801 | 0.967MB
+- name: RELAY-172.67.140.246-644 | 5.287MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -154,51 +120,86 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.209.115-0801 | 0.967MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lvryzenkvm1gb.sharecentre.online
-- name: 🇯🇵JP-35.78.83.160-0836 | 0.446MB
-  server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-172.67.209.115-0799 | 0.355MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.209.115-0799 | 0.355MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: opc-jp.sharecentre.online
-- name: RELAY-172.67.209.115-0798 | 0.2MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.209.115-0798 | 0.2MB
+  servername: RELAY-172.67.140.246-644 | 5.287MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hk.sharecentre.online
+- name: VN-103.167.199.74-068 | 4.175MB
+  server: vn2.hello4g.pw
+  port: 80
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: 🇺🇸US-54.215.123.128-140 | 2.788MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-13.56.209.224-738 | 2.768MB
+  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
+  port: 80
+  type: vmess
+  uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-18.144.46.9-151 | 2.563MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-54.153.17.237-108 | 2.527MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: RELAY-172.67.166.146-645 | 0.663MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.166.146-645 | 0.663MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: opc-jp.sharecentre.online
+- name: 🇺🇸US-34.221.131.93-128 | 0.622MB
+  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
+  port: 10392
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -255,40 +256,39 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-165.3.122.219-0248 | 26.517MB
-  - 🇨🇳CN-157.254.193.251-0246 | 19.491MB
-  - 🇨🇳CN-157.254.193.251-0247 | 18.332MB
-  - VN-103.124.92.48-0507 | 9.197MB
+  - RELAY-172.67.140.246-647 | 52.805MB
+  - 🇺🇸US-165.3.122.219-670 | 25.563MB
+  - RELAY-172.67.140.246-646 | 21.077MB
+  - 🇨🇳CN-157.254.193.251-669 | 19.944MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.64.135.211-0800 | 6.527MB
-  - 🇺🇸US-54.215.123.128-0349 | 3.854MB
-  - 🇺🇸US-18.144.46.9-0547 | 2.582MB
-  - 🇺🇸US-54.193.85.228-0833 | 2.565MB
+  - 🇨🇳CN-157.254.193.251-668 | 19.271MB
+  - VN-103.124.92.48-067 | 11.321MB
+  - VN-103.124.92.48-069 | 10.589MB
+  - RELAY-172.67.140.246-648 | 9.328MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-18.144.46.9-0843 | 2.563MB
-  - 🇺🇸US-54.153.17.237-0359 | 2.527MB
-  - 🇺🇸US-54.153.17.237-0546 | 2.421MB
-  - 🇺🇸US-54.215.123.128-0536 | 2.405MB
+  - RELAY-172.67.140.246-644 | 5.287MB
+  - VN-103.167.199.74-068 | 4.175MB
+  - 🇺🇸US-54.215.123.128-140 | 2.788MB
+  - 🇺🇸US-13.56.209.224-738 | 2.768MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.64.135.211-0802 | 1.422MB
-  - RELAY-172.67.209.115-0801 | 0.967MB
-  - 🇯🇵JP-35.78.83.160-0836 | 0.446MB
-  - RELAY-172.67.209.115-0799 | 0.355MB
-  - RELAY-172.67.209.115-0798 | 0.2MB
+  - 🇺🇸US-18.144.46.9-151 | 2.563MB
+  - 🇺🇸US-54.153.17.237-108 | 2.527MB
+  - RELAY-172.67.166.146-645 | 0.663MB
+  - 🇺🇸US-34.221.131.93-128 | 0.622MB
 rules:
 - MATCH,Global ©️
