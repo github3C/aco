@@ -17,7 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.155.18-0052 | 41.361MB
+- name: RELAY-172.67.65.150-0335 | 48.532MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -26,59 +26,96 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.155.18-0052 | 41.361MB
+  servername: RELAY-172.67.65.150-0335 | 48.532MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+- name: RELAY-172.67.64.31-0334 | 45.579MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.64.31-0334 | 45.579MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: sg-gcore.sharecentre.online
-- name: 🇳🇱NL-5.255.97.94-0154 | 32.869MB
+- name: RELAY-172.67.128.43-0175 | 41.583MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-0185 | 30.282MB
+  server: us02.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: 🇳🇱NL-5.255.97.94-0464 | 23.004MB
   server: nl.archnet.ir
   port: 4439
   type: ss
   cipher: aes-256-gcm
   password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-- name: 🇩🇪DE-130.162.230.82-0733 | 30.425MB
+- name: RELAY-172.67.128.43-0180 | 22.675MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-0178 | 22.661MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: 🇩🇪DE-130.162.230.82-0237 | 21.305MB
   server: fra13.yukiss.eu.org
   port: 18818
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
-- name: 🇬🇧GB-140.238.123.200-0731 | 16.976MB
-  server: london11.yukiss.eu.org
-  port: 18818
-  type: trojan
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  skip-cert-verify: false
-- name: 🇯🇵JP-13.231.229.135-0896 | 15.578MB
-  server: jp04.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 4c3b5fcb-b276-4d71-a6c4-7a423dfb043d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp04.170203.xyz
-- name: 🇯🇵JP-43.206.242.246-0894 | 14.891MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 4c3b5fcb-b276-4d71-a6c4-7a423dfb043d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: 🇯🇵JP-54.238.198.247-0895 | 13.482MB
+- name: 🇯🇵JP-54.238.198.247-0631 | 17.809MB
   server: jp03.170203.xyz
   port: 23245
   type: vmess
@@ -92,19 +129,76 @@ proxies:
     path: /
     headers:
       Host: jp03.170203.xyz
-- name: 🇰🇷KR-144.24.67.241-0721 | 12.574MB
-  server: skcc23.yukiss.eu.org
-  port: 18818
-  type: trojan
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+- name: 🇯🇵JP-13.231.229.135-0632 | 17.562MB
+  server: jp04.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 4c3b5fcb-b276-4d71-a6c4-7a423dfb043d
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇰🇷KR-152.69.231.83-0719 | 12.495MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp04.170203.xyz
+- name: 🇯🇵JP-43.206.242.246-0630 | 17.543MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 4c3b5fcb-b276-4d71-a6c4-7a423dfb043d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: RELAY-172.67.204.32-0336 | 16.638MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.204.32-0336 | 16.638MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp-ntt.sharecentre.online
+- name: RELAY-172.67.128.43-0183 | 15.927MB
+  server: tr01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
+- name: 🇰🇷KR-152.69.231.83-0223 | 15.465MB
   server: skcc31.yukiss.eu.org
   port: 10086
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
-- name: 🇰🇷KR-3.34.253.0-0893 | 11.988MB
+- name: 🇰🇷KR-144.24.67.241-0225 | 15.343MB
+  server: skcc23.yukiss.eu.org
+  port: 18818
+  type: trojan
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  skip-cert-verify: false
+- name: 🇰🇷KR-3.34.253.0-0629 | 14.611MB
   server: kr01.170203.xyz
   port: 45453
   type: vmess
@@ -118,59 +212,299 @@ proxies:
     path: /
     headers:
       Host: kr01.170203.xyz
-- name: IR-185.208.79.114-0153 | 10.746MB
-  server: ir2.archnet.cyou
-  port: 4650
-  type: ss
-  cipher: aes-256-gcm
-  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-- name: 🇦🇺AU-152.67.98.224-0726 | 10.581MB
+- name: 🇨🇳CN-223.111.202.178-1033 | 14.16MB
+  server: 33.wgong1.top
+  port: 52233
+  type: vmess
+  uuid: 1793cb24-e72f-3bf1-828e-ec4e5e9e0d31
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇦🇺AU-152.67.98.224-0230 | 14.016MB
   server: syd14.yukiss.eu.org
   port: 18818
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
-- name: 🇯🇵JP-138.2.35.132-0716 | 10.43MB
+- name: 🇭🇰HK-20.205.40.71-0116 | 13.965MB
+  server: az.hk01.ssru7.casa
+  port: 10010
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: az01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0144 | 13.523MB
+  server: az.hk01.ssru7.casa
+  port: 10025
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us05.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0169 | 13.441MB
+  server: ah.yd01.ssru7.casa
+  port: 10025
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us05.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0158 | 13.335MB
+  server: ah.yd01.ssru7.casa
+  port: 10015
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0141 | 13.311MB
+  server: az.hk01.ssru7.casa
+  port: 10035
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw04.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0147 | 13.276MB
+  server: ah.yd01.ssru7.casa
+  port: 10010
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: az01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0127 | 13.255MB
+  server: az.hk01.ssru7.casa
+  port: 10033
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.jp03.2yun.win
+- name: 🇭🇰HK-20.205.40.71-0126 | 13.237MB
+  server: az.hk01.ssru7.casa
+  port: 10015
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0168 | 13.203MB
+  server: ah.yd01.ssru7.casa
+  port: 10035
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw04.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0136 | 13.16MB
+  server: az.hk01.ssru7.casa
+  port: 10014
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sgp01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0165 | 13.076MB
+  server: ah.yd01.ssru7.casa
+  port: 10014
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sgp01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0159 | 13.027MB
+  server: ah.yd01.ssru7.casa
+  port: 10033
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.jp03.2yun.win
+- name: 🇨🇳CN-223.111.202.178-0002 | 12.951MB
+  server: 5.mxyun1.top
+  port: 41205
+  type: vmess
+  uuid: da16db8e-6230-34dd-8028-95f1edae210e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.178-0004 | 12.94MB
+  server: 7.mxyun1.top
+  port: 41207
+  type: vmess
+  uuid: da16db8e-6230-34dd-8028-95f1edae210e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0142 | 12.906MB
+  server: az.hk01.ssru7.casa
+  port: 10017
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0170 | 12.899MB
+  server: ah.yd01.ssru7.casa
+  port: 10026
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us06.ssru4.fun
+- name: 🇯🇵JP-138.2.35.132-0220 | 12.677MB
   server: osaka11.900513.xyz
   port: 10086
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
-- name: 🇨🇳CN-14.29.167.50-0318 | 10.17MB
-  server: gddx.fosi.hk
-  port: 49062
+- name: RELAY-172.67.128.43-0184 | 12.465MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: e0963e29-4f34-4b4e-8fbb-f36736945cf6
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: gddx.fosi.hk
-- name: IR-185.208.79.114-0149 | 10.145MB
-  server: ir2.archnet.cyou
-  port: 9998
-  type: ss
-  cipher: aes-256-gcm
-  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-- name: 🇨🇳CN-14.29.167.50-0353 | 9.928MB
-  server: gddx.fosi.hk
-  port: 49062
+      Host: uk01.ssru4.fun
+- name: 🇦🇺AU-168.138.8.86-0231 | 12.267MB
+  server: mel12.yukiss.eu.org
+  port: 18818
+  type: trojan
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0131 | 12.233MB
+  server: az.hk01.ssru7.casa
+  port: 10005
   type: vmess
-  uuid: f98b0586-3fd3-4c6e-9266-9037e353bb4d
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: gddx.fosi.hk
-- name: 🇸🇬SG-18.141.198.23-0875 | 9.817MB
+      Host: lu01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0143 | 12.187MB
+  server: az.hk01.ssru7.casa
+  port: 10018
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.us03.2yun.win
+- name: 🇨🇳CN-223.111.202.178-1164 | 12.156MB
+  server: 7.mxyun1.top
+  port: 41207
+  type: vmess
+  uuid: c16476f6-f79f-31f6-aebc-053728d2a680
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬SG-18.141.198.23-0611 | 12.057MB
   server: sg02.170203.xyz
   port: 43543
   type: vmess
@@ -184,7 +518,170 @@ proxies:
     path: /
     headers:
       Host: sg02.170203.xyz
-- name: 🇸🇬SG-52.221.216.116-0872 | 9.544MB
+- name: 🇭🇰HK-20.205.40.71-0124 | 11.974MB
+  server: az.hk01.ssru7.casa
+  port: 10012
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hl01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0145 | 11.948MB
+  server: az.hk01.ssru7.casa
+  port: 10026
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us06.ssru4.fun
+- name: 🇨🇳CN-140.179.75.37-1023 | 11.888MB
+  server: 121.wgong1.top
+  port: 52221
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-14.29.167.50-0217 | 11.833MB
+  server: gddx.fosi.hk
+  port: 49062
+  type: vmess
+  uuid: 3d2e28c5-1e79-4ea9-8639-cdd577e6cd23
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0534 | 11.827MB
+  server: gddx.fosi.hk
+  port: 49062
+  type: vmess
+  uuid: dd6830f4-d948-4af6-9c99-74c8cc175c94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇸🇬SG-13.215.249.121-0610 | 11.746MB
+  server: sg03.170203.xyz
+  port: 34333
+  type: vmess
+  uuid: 4c3b5fcb-b276-4d71-a6c4-7a423dfb043d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg03.170203.xyz
+- name: 🇭🇰HK-20.205.40.71-0160 | 11.64MB
+  server: ah.yd01.ssru7.casa
+  port: 10004
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp05.ssru4.fun
+- name: 🇨🇳CN-14.29.167.50-0211 | 11.589MB
+  server: gddx.fosi.hk
+  port: 41173
+  type: vmess
+  uuid: 3d2e28c5-1e79-4ea9-8639-cdd577e6cd23
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0950 | 11.495MB
+  server: gddx.fosi.hk
+  port: 49062
+  type: vmess
+  uuid: 6c5762b0-c40f-41b2-acd4-f6bc1ee79be2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0133 | 11.227MB
+  server: az.hk01.ssru7.casa
+  port: 10043
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my01.ssru3.casa
+- name: RELAY-104.21.57.25-0173 | 11.013MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
+- name: 🇨🇳CN-14.29.167.50-0194 | 10.825MB
+  server: gddx.fosi.hk
+  port: 35499
+  type: vmess
+  uuid: 5bea3f94-f9bb-41e2-b911-eddbd758d672
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇸🇬SG-52.221.216.116-0608 | 10.798MB
   server: sg001.170203.xyz
   port: 43543
   type: vmess
@@ -198,82 +695,20 @@ proxies:
     path: /
     headers:
       Host: sg001.170203.xyz
-- name: 🇨🇳CN-14.29.167.50-0552 | 9.525MB
-  server: gddx.fosi.hk
-  port: 49062
+- name: 🇨🇳CN-140.179.110.44-1019 | 10.777MB
+  server: 117.wgong1.top
+  port: 52217
   type: vmess
-  uuid: bf199f79-1ea1-4ef0-a860-e76bd940dacc
-  alterId: 0
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0235 | 9.302MB
-  server: gddx.fosi.hk
-  port: 49062
+- name: 🇭🇰HK-20.205.40.71-0140 | 10.553MB
+  server: az.hk01.ssru7.casa
+  port: 10034
   type: vmess
-  uuid: a9d3c979-ceb0-413c-ac16-68d52420a990
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0308 | 7.982MB
-  server: gddx.fosi.hk
-  port: 35499
-  type: vmess
-  uuid: e0963e29-4f34-4b4e-8fbb-f36736945cf6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: RELAY-172.67.36.218-0054 | 7.936MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.36.218-0054 | 7.936MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp-ntt.sharecentre.online
-- name: 🇨🇳CN-14.29.167.50-0546 | 7.132MB
-  server: gddx.fosi.hk
-  port: 41173
-  type: vmess
-  uuid: bf199f79-1ea1-4ef0-a860-e76bd940dacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: VN-103.124.92.48-0039 | 7.032MB
-  server: 103.124.92.48
-  port: 443
-  type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
   alterId: 0
   cipher: auto
   tls: true
@@ -282,74 +717,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇨🇳CN-14.29.167.50-1086 | 6.94MB
-  server: gddx.fosi.hk
-  port: 35499
-  type: vmess
-  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0542 | 6.899MB
-  server: gddx.fosi.hk
-  port: 35499
-  type: vmess
-  uuid: bf199f79-1ea1-4ef0-a860-e76bd940dacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0343 | 6.851MB
-  server: gddx.fosi.hk
-  port: 35499
-  type: vmess
-  uuid: f98b0586-3fd3-4c6e-9266-9037e353bb4d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0312 | 6.557MB
-  server: gddx.fosi.hk
-  port: 41173
-  type: vmess
-  uuid: e0963e29-4f34-4b4e-8fbb-f36736945cf6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: CH-152.67.71.149-0732 | 6.465MB
-  server: ch12.yukiss.eu.org
-  port: 18818
-  type: trojan
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  skip-cert-verify: false
-- name: 🇨🇳CN-14.29.167.50-0230 | 6.308MB
+      Host: tw03.ssru3.casa
+- name: 🇨🇳CN-14.29.167.50-0212 | 10.485MB
   server: gddx.fosi.hk
   port: 43592
   type: vmess
-  uuid: a9d3c979-ceb0-413c-ac16-68d52420a990
+  uuid: 3d2e28c5-1e79-4ea9-8639-cdd577e6cd23
   alterId: 0
   cipher: auto
   tls: false
@@ -359,227 +732,13 @@ proxies:
     path: /
     headers:
       Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0347 | 5.771MB
-  server: gddx.fosi.hk
-  port: 41173
-  type: vmess
-  uuid: f98b0586-3fd3-4c6e-9266-9037e353bb4d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-1090 | 5.713MB
-  server: gddx.fosi.hk
-  port: 41173
-  type: vmess
-  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0547 | 5.251MB
-  server: gddx.fosi.hk
-  port: 43592
-  type: vmess
-  uuid: bf199f79-1ea1-4ef0-a860-e76bd940dacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇭🇰HK-154.212.151.70-0047 | 4.449MB
-  server: yhyhkbgp.yinhecdn.online
-  port: 17801
-  type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yhyhkbgp.yinhecdn.online
-- name: 🇭🇰HK-154.212.151.70-0048 | 3.848MB
-  server: yhyhkbgp.yinhecdn.online
-  port: 17803
-  type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yhyhkbgp.yinhecdn.online
-- name: 🇨🇳CN-14.29.167.50-1096 | 3.357MB
-  server: gddx.fosi.hk
-  port: 49062
-  type: vmess
-  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0348 | 3.222MB
-  server: gddx.fosi.hk
-  port: 43592
-  type: vmess
-  uuid: f98b0586-3fd3-4c6e-9266-9037e353bb4d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇭🇰HK-154.212.151.70-0044 | 3.215MB
-  server: yhyhkbgp.yinhecdn.online
-  port: 16361
-  type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yhyhkbgp.yinhecdn.online
-- name: 🇨🇳CN-14.29.167.50-1091 | 3.135MB
-  server: gddx.fosi.hk
-  port: 43592
-  type: vmess
-  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.29.167.50-0313 | 2.772MB
-  server: gddx.fosi.hk
-  port: 43592
-  type: vmess
-  uuid: e0963e29-4f34-4b4e-8fbb-f36736945cf6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇺🇸US-137.175.28.5-0049 | 2.755MB
-  server: 137.175.28.5
-  port: 17805
-  type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇦🇺AU-168.138.8.86-0727 | 2.62MB
-  server: mel12.yukiss.eu.org
-  port: 18818
-  type: trojan
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  skip-cert-verify: false
-- name: IR-185.208.79.114-0145 | 2.222MB
+- name: IR-185.208.79.114-0463 | 10.481MB
   server: ir2.archnet.cyou
-  port: 4646
-  type: trojan
-  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-  sni: hozix.xyz
-  skip-cert-verify: false
-- name: IR-185.208.79.114-0146 | 1.709MB
-  server: ir2.archnet.cyou
-  port: 4648
+  port: 4650
   type: ss
   cipher: aes-256-gcm
   password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-- name: IR-185.208.79.114-0143 | 1.331MB
-  server: ir2.archnet.cyou
-  port: 4646
-  type: trojan
-  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
-  sni: hozix.xyz
-  skip-cert-verify: false
-- name: RELAY-172.67.36.218-0053 | 0.674MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.36.218-0053 | 0.674MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lvryzenkvm1gb.sharecentre.online
-- name: 🇨🇳CN-43.154.182.177-0041 | 0.381MB
-  server: 43.154.182.177
-  port: 19203
-  type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: RELAY-172.67.155.18-0051 | 0.2MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.155.18-0051 | 0.2MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: opc-jp.sharecentre.online
-- name: VN-103.124.92.48-0037 | 0.082MB
+- name: VN-103.124.92.48-0910 | 10.312MB
   server: 103.124.92.48
   port: 80
   type: vmess
@@ -593,9 +752,702 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇭🇰HK-154.212.151.70-0046 | 0.078MB
-  server: yhyhkbgp.yinhecdn.online
-  port: 17800
+- name: 🇭🇰HK-20.205.40.71-0149 | 10.234MB
+  server: ah.yd01.ssru7.casa
+  port: 10041
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: 🇭🇰HK-20.205.40.71-0157 | 10.177MB
+  server: ah.yd01.ssru7.casa
+  port: 10007
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.jp01.2yun.win
+- name: VN-103.124.92.48-0912 | 10.008MB
+  server: 103.124.92.48
+  port: 443
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cn.e.pic.ak.mangatoon.akamaized.net
+- name: RELAY-172.67.128.43-0181 | 9.845MB
+  server: my01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my01.ssru3.casa
+- name: 🇨🇳CN-223.111.202.178-1011 | 9.807MB
+  server: 33.wgong1.top
+  port: 52233
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0150 | 9.76MB
+  server: ah.yd01.ssru7.casa
+  port: 10039
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: db01.paopaocloud.cyou
+- name: 🇬🇧GB-140.238.123.200-0235 | 9.686MB
+  server: london11.yukiss.eu.org
+  port: 18818
+  type: trojan
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0167 | 9.435MB
+  server: ah.yd01.ssru7.casa
+  port: 10034
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw03.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0135 | 9.271MB
+  server: az.hk01.ssru7.casa
+  port: 10031
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.ru02.2yun.win
+- name: IR-185.208.79.114-0459 | 9.218MB
+  server: ir2.archnet.cyou
+  port: 9998
+  type: ss
+  cipher: aes-256-gcm
+  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+- name: 🇨🇳CN-223.111.202.178-1014 | 9.136MB
+  server: 112.wgong1.top
+  port: 52212
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.178-1013 | 9.116MB
+  server: 111.wgong1.top
+  port: 52211
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-14.29.167.50-0207 | 8.866MB
+  server: gddx.fosi.hk
+  port: 35499
+  type: vmess
+  uuid: 3d2e28c5-1e79-4ea9-8639-cdd577e6cd23
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0128 | 8.851MB
+  server: az.hk01.ssru7.casa
+  port: 10004
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp05.ssru4.fun
+- name: 🇨🇳CN-14.29.167.50-0528 | 8.811MB
+  server: gddx.fosi.hk
+  port: 41173
+  type: vmess
+  uuid: dd6830f4-d948-4af6-9c99-74c8cc175c94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0524 | 8.585MB
+  server: gddx.fosi.hk
+  port: 35499
+  type: vmess
+  uuid: dd6830f4-d948-4af6-9c99-74c8cc175c94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0944 | 8.575MB
+  server: gddx.fosi.hk
+  port: 41173
+  type: vmess
+  uuid: 6c5762b0-c40f-41b2-acd4-f6bc1ee79be2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0125 | 8.425MB
+  server: az.hk01.ssru7.casa
+  port: 10007
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.jp01.2yun.win
+- name: 🇭🇰HK-20.205.40.71-0146 | 8.305MB
+  server: az.hk01.ssru7.casa
+  port: 10019
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vn01.ssru4.fun
+- name: 🇨🇳CN-14.29.167.50-0198 | 8.272MB
+  server: gddx.fosi.hk
+  port: 41173
+  type: vmess
+  uuid: 5bea3f94-f9bb-41e2-b911-eddbd758d672
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0500 | 7.49MB
+  server: gddx.fosi.hk
+  port: 49062
+  type: vmess
+  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0494 | 7.399MB
+  server: gddx.fosi.hk
+  port: 41173
+  type: vmess
+  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0172 | 7.323MB
+  server: ah.yd01.ssru7.casa
+  port: 10019
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vn01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0117 | 7.285MB
+  server: az.hk01.ssru7.casa
+  port: 10022
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fr01.2yun.win
+- name: 🇨🇳CN-14.29.167.50-0940 | 7.115MB
+  server: gddx.fosi.hk
+  port: 35499
+  type: vmess
+  uuid: 6c5762b0-c40f-41b2-acd4-f6bc1ee79be2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0490 | 7.052MB
+  server: gddx.fosi.hk
+  port: 35499
+  type: vmess
+  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-140.179.136.12-1020 | 6.455MB
+  server: 118.wgong1.top
+  port: 52218
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-14.29.167.50-0199 | 6.391MB
+  server: gddx.fosi.hk
+  port: 43592
+  type: vmess
+  uuid: 5bea3f94-f9bb-41e2-b911-eddbd758d672
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0164 | 6.125MB
+  server: ah.yd01.ssru7.casa
+  port: 10023
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.ru01.2yun.win
+- name: 🇭🇰HK-20.205.40.71-0134 | 6.094MB
+  server: az.hk01.ssru7.casa
+  port: 10023
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssru.v2.ru01.2yun.win
+- name: 🇨🇳CN-14.29.167.50-0529 | 6.091MB
+  server: gddx.fosi.hk
+  port: 43592
+  type: vmess
+  uuid: dd6830f4-d948-4af6-9c99-74c8cc175c94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇨🇳CN-14.29.167.50-0945 | 6.087MB
+  server: gddx.fosi.hk
+  port: 43592
+  type: vmess
+  uuid: 6c5762b0-c40f-41b2-acd4-f6bc1ee79be2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0156 | 6.07MB
+  server: ah.yd01.ssru7.casa
+  port: 10037
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk08.ssru4.fun
+- name: 🇭🇰HK-223.16.105.95-0188 | 5.735MB
+  server: paopao.v2.az01.paopaocloud.cyou
+  port: 13312
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: az01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0132 | 5.407MB
+  server: az.hk01.ssru7.casa
+  port: 10036
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mol01.ssru3.casa
+- name: 🇨🇳CN-140.179.136.12-1015 | 5.235MB
+  server: 113.wgong1.top
+  port: 52213
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: CH-152.67.71.149-0236 | 4.727MB
+  server: ch12.yukiss.eu.org
+  port: 18818
+  type: trojan
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  skip-cert-verify: false
+- name: RELAY-172.67.128.43-0177 | 4.003MB
+  server: db01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: db01.paopaocloud.cyou
+- name: 🇭🇰HK-20.205.40.71-0163 | 3.984MB
+  server: ah.yd01.ssru7.casa
+  port: 10042
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ph01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0153 | 3.924MB
+  server: ah.yd01.ssru7.casa
+  port: 10003
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk05.ssru4.fun
+- name: 🇨🇳CN-223.111.202.178-1012 | 3.739MB
+  server: 34.wgong1.top
+  port: 52234
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0123 | 3.559MB
+  server: az.hk01.ssru7.casa
+  port: 10037
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk08.ssru4.fun
+- name: VN-103.167.199.74-0913 | 3.545MB
+  server: vn2.hello4g.pw
+  port: 443
+  type: vmess
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cn.e.pic.ak.mangatoon.akamaized.net
+- name: 🇨🇳CN-223.111.202.178-0005 | 3.235MB
+  server: 8.mxyun1.top
+  port: 41208
+  type: vmess
+  uuid: da16db8e-6230-34dd-8028-95f1edae210e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: IR-185.208.79.114-0453 | 3.105MB
+  server: ir2.archnet.cyou
+  port: 4646
+  type: trojan
+  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+  sni: hozix.xyz
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0121 | 2.754MB
+  server: az.hk01.ssru7.casa
+  port: 10003
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk05.ssru4.fun
+- name: 🇨🇳CN-14.29.167.50-0495 | 2.536MB
+  server: gddx.fosi.hk
+  port: 43592
+  type: vmess
+  uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇭🇰HK-20.205.40.71-0120 | 2.508MB
+  server: az.hk01.ssru7.casa
+  port: 10002
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk04.ssru3.casa
+- name: RELAY-172.67.128.43-0182 | 2.41MB
+  server: ph01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ph01.ssru4.fun
+- name: IR-185.208.79.114-0455 | 2.261MB
+  server: ir2.archnet.cyou
+  port: 4646
+  type: trojan
+  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+  sni: hozix.xyz
+  skip-cert-verify: false
+- name: 🇺🇸US-35.90.184.170-0581 | 2.185MB
+  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
+  port: 10392
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: IR-185.208.79.114-0456 | 2.175MB
+  server: ir2.archnet.cyou
+  port: 4648
+  type: ss
+  cipher: aes-256-gcm
+  password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+- name: 🇭🇰HK-20.205.40.71-0152 | 2.082MB
+  server: ah.yd01.ssru7.casa
+  port: 10002
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk04.ssru3.casa
+- name: 🇨🇳CN-14.29.167.50-0204 | 1.979MB
+  server: gddx.fosi.hk
+  port: 49062
+  type: vmess
+  uuid: 5bea3f94-f9bb-41e2-b911-eddbd758d672
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fosi.hk
+- name: 🇺🇸US-192.210.206.28-0869 | 1.886MB
+  server: usrn1.xiaolongyun.xyz
+  port: 21903
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usrn1.xiaolongyun.xyz
+- name: 🇨🇳CN-140.179.136.12-1017 | 1.864MB
+  server: 115.wgong1.top
+  port: 52215
+  type: vmess
+  uuid: bc0adb4d-c6f7-3dad-a8f2-c37e7c4947d3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-43.154.182.177-0842 | 1.536MB
+  server: 43.154.182.177
+  port: 19203
   type: vmess
   uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
   alterId: 0
@@ -605,8 +1457,204 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🇨🇳CN-140.179.136.12-0963 | 1.356MB
+  server: 115.wgong1.top
+  port: 52215
+  type: vmess
+  uuid: cc59a657-f807-3d4e-bf9d-0aaf432083c2
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-137.175.28.5-0850 | 1.268MB
+  server: 137.175.28.5
+  port: 17805
+  type: vmess
+  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-20.205.40.71-0119 | 1.181MB
+  server: az.hk01.ssru7.casa
+  port: 10001
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host: yhyhkbgp.yinhecdn.online
+      Host: hk03.ssru3.casa
+- name: 🇨🇳CN-140.179.136.12-0961 | 1.128MB
+  server: 113.wgong1.top
+  port: 52213
+  type: vmess
+  uuid: cc59a657-f807-3d4e-bf9d-0aaf432083c2
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: RELAY-172.67.64.31-0333 | 0.969MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.64.31-0333 | 0.969MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: opc-jp.sharecentre.online
+- name: 🇭🇰HK-20.205.40.71-0154 | 0.768MB
+  server: ah.yd01.ssru7.casa
+  port: 10009
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk06.ssru4.fun
+- name: 🇺🇸US-35.90.184.170-0369 | 0.74MB
+  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
+  port: 10392
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.178-0003 | 0.665MB
+  server: 6.mxyun1.top
+  port: 41206
+  type: vmess
+  uuid: da16db8e-6230-34dd-8028-95f1edae210e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0161 | 0.606MB
+  server: ah.yd01.ssru7.casa
+  port: 10016
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0129 | 0.587MB
+  server: az.hk01.ssru7.casa
+  port: 10016
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr01.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0162 | 0.475MB
+  server: ah.yd01.ssru7.casa
+  port: 10038
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr02.ssru3.casa
+- name: RELAY-172.67.128.43-0179 | 0.404MB
+  server: kr02.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr02.ssru3.casa
+- name: 🇭🇰HK-20.205.40.71-0130 | 0.327MB
+  server: az.hk01.ssru7.casa
+  port: 10038
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr02.ssru3.casa
+- name: 🇰🇷KR-15.164.214.191-0907 | 0.312MB
+  server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰HK-20.205.40.71-0118 | 0.299MB
+  server: az.hk01.ssru7.casa
+  port: 10032
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk01.ssru4.fun
+- name: 🇭🇰HK-20.205.40.71-0151 | 0.223MB
+  server: ah.yd01.ssru7.casa
+  port: 10001
+  type: vmess
+  uuid: ec704288-9a62-39aa-aba7-ab1c9c82bf0d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk03.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -663,73 +1711,155 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.155.18-0052 | 41.361MB
-  - 🇳🇱NL-5.255.97.94-0154 | 32.869MB
-  - 🇩🇪DE-130.162.230.82-0733 | 30.425MB
-  - 🇬🇧GB-140.238.123.200-0731 | 16.976MB
-  - 🇯🇵JP-13.231.229.135-0896 | 15.578MB
-  - 🇯🇵JP-43.206.242.246-0894 | 14.891MB
-  - 🇯🇵JP-54.238.198.247-0895 | 13.482MB
-  - 🇰🇷KR-144.24.67.241-0721 | 12.574MB
-  - 🇰🇷KR-152.69.231.83-0719 | 12.495MB
-  - 🇰🇷KR-3.34.253.0-0893 | 11.988MB
-  - IR-185.208.79.114-0153 | 10.746MB
-  - 🇦🇺AU-152.67.98.224-0726 | 10.581MB
+  - RELAY-172.67.65.150-0335 | 48.532MB
+  - RELAY-172.67.64.31-0334 | 45.579MB
+  - RELAY-172.67.128.43-0175 | 41.583MB
+  - RELAY-172.67.128.43-0185 | 30.282MB
+  - 🇳🇱NL-5.255.97.94-0464 | 23.004MB
+  - RELAY-172.67.128.43-0180 | 22.675MB
+  - RELAY-172.67.128.43-0178 | 22.661MB
+  - 🇩🇪DE-130.162.230.82-0237 | 21.305MB
+  - 🇯🇵JP-54.238.198.247-0631 | 17.809MB
+  - 🇯🇵JP-13.231.229.135-0632 | 17.562MB
+  - 🇯🇵JP-43.206.242.246-0630 | 17.543MB
+  - RELAY-172.67.204.32-0336 | 16.638MB
+  - RELAY-172.67.128.43-0183 | 15.927MB
+  - 🇰🇷KR-152.69.231.83-0223 | 15.465MB
+  - 🇰🇷KR-144.24.67.241-0225 | 15.343MB
+  - 🇰🇷KR-3.34.253.0-0629 | 14.611MB
+  - 🇨🇳CN-223.111.202.178-1033 | 14.16MB
+  - 🇦🇺AU-152.67.98.224-0230 | 14.016MB
+  - 🇭🇰HK-20.205.40.71-0116 | 13.965MB
+  - 🇭🇰HK-20.205.40.71-0144 | 13.523MB
+  - 🇭🇰HK-20.205.40.71-0169 | 13.441MB
+  - 🇭🇰HK-20.205.40.71-0158 | 13.335MB
+  - 🇭🇰HK-20.205.40.71-0141 | 13.311MB
+  - 🇭🇰HK-20.205.40.71-0147 | 13.276MB
+  - 🇭🇰HK-20.205.40.71-0127 | 13.255MB
+  - 🇭🇰HK-20.205.40.71-0126 | 13.237MB
+  - 🇭🇰HK-20.205.40.71-0168 | 13.203MB
+  - 🇭🇰HK-20.205.40.71-0136 | 13.16MB
+  - 🇭🇰HK-20.205.40.71-0165 | 13.076MB
+  - 🇭🇰HK-20.205.40.71-0159 | 13.027MB
+  - 🇨🇳CN-223.111.202.178-0002 | 12.951MB
+  - 🇨🇳CN-223.111.202.178-0004 | 12.94MB
+  - 🇭🇰HK-20.205.40.71-0142 | 12.906MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-138.2.35.132-0716 | 10.43MB
-  - 🇨🇳CN-14.29.167.50-0318 | 10.17MB
-  - IR-185.208.79.114-0149 | 10.145MB
-  - 🇨🇳CN-14.29.167.50-0353 | 9.928MB
-  - 🇸🇬SG-18.141.198.23-0875 | 9.817MB
-  - 🇸🇬SG-52.221.216.116-0872 | 9.544MB
-  - 🇨🇳CN-14.29.167.50-0552 | 9.525MB
-  - 🇨🇳CN-14.29.167.50-0235 | 9.302MB
-  - 🇨🇳CN-14.29.167.50-0308 | 7.982MB
-  - RELAY-172.67.36.218-0054 | 7.936MB
-  - 🇨🇳CN-14.29.167.50-0546 | 7.132MB
-  - VN-103.124.92.48-0039 | 7.032MB
+  - 🇭🇰HK-20.205.40.71-0170 | 12.899MB
+  - 🇯🇵JP-138.2.35.132-0220 | 12.677MB
+  - RELAY-172.67.128.43-0184 | 12.465MB
+  - 🇦🇺AU-168.138.8.86-0231 | 12.267MB
+  - 🇭🇰HK-20.205.40.71-0131 | 12.233MB
+  - 🇭🇰HK-20.205.40.71-0143 | 12.187MB
+  - 🇨🇳CN-223.111.202.178-1164 | 12.156MB
+  - 🇸🇬SG-18.141.198.23-0611 | 12.057MB
+  - 🇭🇰HK-20.205.40.71-0124 | 11.974MB
+  - 🇭🇰HK-20.205.40.71-0145 | 11.948MB
+  - 🇨🇳CN-140.179.75.37-1023 | 11.888MB
+  - 🇨🇳CN-14.29.167.50-0217 | 11.833MB
+  - 🇨🇳CN-14.29.167.50-0534 | 11.827MB
+  - 🇸🇬SG-13.215.249.121-0610 | 11.746MB
+  - 🇭🇰HK-20.205.40.71-0160 | 11.64MB
+  - 🇨🇳CN-14.29.167.50-0211 | 11.589MB
+  - 🇨🇳CN-14.29.167.50-0950 | 11.495MB
+  - 🇭🇰HK-20.205.40.71-0133 | 11.227MB
+  - RELAY-104.21.57.25-0173 | 11.013MB
+  - 🇨🇳CN-14.29.167.50-0194 | 10.825MB
+  - 🇸🇬SG-52.221.216.116-0608 | 10.798MB
+  - 🇨🇳CN-140.179.110.44-1019 | 10.777MB
+  - 🇭🇰HK-20.205.40.71-0140 | 10.553MB
+  - 🇨🇳CN-14.29.167.50-0212 | 10.485MB
+  - IR-185.208.79.114-0463 | 10.481MB
+  - VN-103.124.92.48-0910 | 10.312MB
+  - 🇭🇰HK-20.205.40.71-0149 | 10.234MB
+  - 🇭🇰HK-20.205.40.71-0157 | 10.177MB
+  - VN-103.124.92.48-0912 | 10.008MB
+  - RELAY-172.67.128.43-0181 | 9.845MB
+  - 🇨🇳CN-223.111.202.178-1011 | 9.807MB
+  - 🇭🇰HK-20.205.40.71-0150 | 9.76MB
+  - 🇬🇧GB-140.238.123.200-0235 | 9.686MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.29.167.50-1086 | 6.94MB
-  - 🇨🇳CN-14.29.167.50-0542 | 6.899MB
-  - 🇨🇳CN-14.29.167.50-0343 | 6.851MB
-  - 🇨🇳CN-14.29.167.50-0312 | 6.557MB
-  - CH-152.67.71.149-0732 | 6.465MB
-  - 🇨🇳CN-14.29.167.50-0230 | 6.308MB
-  - 🇨🇳CN-14.29.167.50-0347 | 5.771MB
-  - 🇨🇳CN-14.29.167.50-1090 | 5.713MB
-  - 🇨🇳CN-14.29.167.50-0547 | 5.251MB
-  - 🇭🇰HK-154.212.151.70-0047 | 4.449MB
-  - 🇭🇰HK-154.212.151.70-0048 | 3.848MB
-  - 🇨🇳CN-14.29.167.50-1096 | 3.357MB
+  - 🇭🇰HK-20.205.40.71-0167 | 9.435MB
+  - 🇭🇰HK-20.205.40.71-0135 | 9.271MB
+  - IR-185.208.79.114-0459 | 9.218MB
+  - 🇨🇳CN-223.111.202.178-1014 | 9.136MB
+  - 🇨🇳CN-223.111.202.178-1013 | 9.116MB
+  - 🇨🇳CN-14.29.167.50-0207 | 8.866MB
+  - 🇭🇰HK-20.205.40.71-0128 | 8.851MB
+  - 🇨🇳CN-14.29.167.50-0528 | 8.811MB
+  - 🇨🇳CN-14.29.167.50-0524 | 8.585MB
+  - 🇨🇳CN-14.29.167.50-0944 | 8.575MB
+  - 🇭🇰HK-20.205.40.71-0125 | 8.425MB
+  - 🇭🇰HK-20.205.40.71-0146 | 8.305MB
+  - 🇨🇳CN-14.29.167.50-0198 | 8.272MB
+  - 🇨🇳CN-14.29.167.50-0500 | 7.49MB
+  - 🇨🇳CN-14.29.167.50-0494 | 7.399MB
+  - 🇭🇰HK-20.205.40.71-0172 | 7.323MB
+  - 🇭🇰HK-20.205.40.71-0117 | 7.285MB
+  - 🇨🇳CN-14.29.167.50-0940 | 7.115MB
+  - 🇨🇳CN-14.29.167.50-0490 | 7.052MB
+  - 🇨🇳CN-140.179.136.12-1020 | 6.455MB
+  - 🇨🇳CN-14.29.167.50-0199 | 6.391MB
+  - 🇭🇰HK-20.205.40.71-0164 | 6.125MB
+  - 🇭🇰HK-20.205.40.71-0134 | 6.094MB
+  - 🇨🇳CN-14.29.167.50-0529 | 6.091MB
+  - 🇨🇳CN-14.29.167.50-0945 | 6.087MB
+  - 🇭🇰HK-20.205.40.71-0156 | 6.07MB
+  - 🇭🇰HK-223.16.105.95-0188 | 5.735MB
+  - 🇭🇰HK-20.205.40.71-0132 | 5.407MB
+  - 🇨🇳CN-140.179.136.12-1015 | 5.235MB
+  - CH-152.67.71.149-0236 | 4.727MB
+  - RELAY-172.67.128.43-0177 | 4.003MB
+  - 🇭🇰HK-20.205.40.71-0163 | 3.984MB
+  - 🇭🇰HK-20.205.40.71-0153 | 3.924MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.29.167.50-0348 | 3.222MB
-  - 🇭🇰HK-154.212.151.70-0044 | 3.215MB
-  - 🇨🇳CN-14.29.167.50-1091 | 3.135MB
-  - 🇨🇳CN-14.29.167.50-0313 | 2.772MB
-  - 🇺🇸US-137.175.28.5-0049 | 2.755MB
-  - 🇦🇺AU-168.138.8.86-0727 | 2.62MB
-  - IR-185.208.79.114-0145 | 2.222MB
-  - IR-185.208.79.114-0146 | 1.709MB
-  - IR-185.208.79.114-0143 | 1.331MB
-  - RELAY-172.67.36.218-0053 | 0.674MB
-  - 🇨🇳CN-43.154.182.177-0041 | 0.381MB
-  - RELAY-172.67.155.18-0051 | 0.2MB
-  - VN-103.124.92.48-0037 | 0.082MB
-  - 🇭🇰HK-154.212.151.70-0046 | 0.078MB
+  - 🇨🇳CN-223.111.202.178-1012 | 3.739MB
+  - 🇭🇰HK-20.205.40.71-0123 | 3.559MB
+  - VN-103.167.199.74-0913 | 3.545MB
+  - 🇨🇳CN-223.111.202.178-0005 | 3.235MB
+  - IR-185.208.79.114-0453 | 3.105MB
+  - 🇭🇰HK-20.205.40.71-0121 | 2.754MB
+  - 🇨🇳CN-14.29.167.50-0495 | 2.536MB
+  - 🇭🇰HK-20.205.40.71-0120 | 2.508MB
+  - RELAY-172.67.128.43-0182 | 2.41MB
+  - IR-185.208.79.114-0455 | 2.261MB
+  - 🇺🇸US-35.90.184.170-0581 | 2.185MB
+  - IR-185.208.79.114-0456 | 2.175MB
+  - 🇭🇰HK-20.205.40.71-0152 | 2.082MB
+  - 🇨🇳CN-14.29.167.50-0204 | 1.979MB
+  - 🇺🇸US-192.210.206.28-0869 | 1.886MB
+  - 🇨🇳CN-140.179.136.12-1017 | 1.864MB
+  - 🇨🇳CN-43.154.182.177-0842 | 1.536MB
+  - 🇨🇳CN-140.179.136.12-0963 | 1.356MB
+  - 🇺🇸US-137.175.28.5-0850 | 1.268MB
+  - 🇭🇰HK-20.205.40.71-0119 | 1.181MB
+  - 🇨🇳CN-140.179.136.12-0961 | 1.128MB
+  - RELAY-172.67.64.31-0333 | 0.969MB
+  - 🇭🇰HK-20.205.40.71-0154 | 0.768MB
+  - 🇺🇸US-35.90.184.170-0369 | 0.74MB
+  - 🇨🇳CN-223.111.202.178-0003 | 0.665MB
+  - 🇭🇰HK-20.205.40.71-0161 | 0.606MB
+  - 🇭🇰HK-20.205.40.71-0129 | 0.587MB
+  - 🇭🇰HK-20.205.40.71-0162 | 0.475MB
+  - RELAY-172.67.128.43-0179 | 0.404MB
+  - 🇭🇰HK-20.205.40.71-0130 | 0.327MB
+  - 🇰🇷KR-15.164.214.191-0907 | 0.312MB
+  - 🇭🇰HK-20.205.40.71-0118 | 0.299MB
+  - 🇭🇰HK-20.205.40.71-0151 | 0.223MB
 rules:
 - MATCH,Global ©️
