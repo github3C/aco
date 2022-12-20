@@ -17,7 +17,14 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.70.121-0283 | 37.678MB
+- name: 🇺🇸US-165.3.122.219-0052 | 33.854MB
+  server: zzus01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: 5fb3894e-6923-4303-a656-9c1d45a51315
+  sni: zzus01.fuqiangren.com
+  skip-cert-verify: false
+- name: RELAY-172.67.43.149-1078 | 32.242MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -26,34 +33,42 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.70.121-0283 | 37.678MB
+  servername: RELAY-172.67.43.149-1078 | 32.242MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: sg-gcore.sharecentre.online
-- name: 🇺🇸US-165.3.122.219-0630 | 35.538MB
-  server: zzus01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: 5fb3894e-6923-4303-a656-9c1d45a51315
-  sni: zzus01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0628 | 15.364MB
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: 5fb3894e-6923-4303-a656-9c1d45a51315
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: false
-- name: 🇨🇳CN-157.254.193.251-0629 | 14.266MB
+- name: 🇨🇳CN-157.254.193.251-0051 | 15.254MB
   server: zzjp01.fuqiangren.com
   port: 20221
   type: trojan
   password: 5fb3894e-6923-4303-a656-9c1d45a51315
   sni: zzjp01.fuqiangren.com
   skip-cert-verify: false
-- name: 🇺🇸US-154.17.22.56-0578 | 13.115MB
+- name: 🇨🇳CN-157.254.193.251-0050 | 14.832MB
+  server: zzjp01.fuqiangren.com
+  port: 20220
+  type: trojan
+  password: 5fb3894e-6923-4303-a656-9c1d45a51315
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: false
+- name: RELAY-172.67.73.119-1080 | 11.345MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.73.119-1080 | 11.345MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp-ntt.sharecentre.online
+- name: 🇺🇸US-154.17.22.56-0642 | 7.194MB
   server: 154.17.22.56
   port: 8083
   type: vmess
@@ -67,7 +82,7 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0581 | 6.299MB
+- name: 🇨🇳CN-111.6.86.74-0645 | 6.64MB
   server: 111.6.86.74
   port: 6666
   type: vmess
@@ -81,50 +96,7 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0572 | 5.625MB
-  server: 111.6.86.74
-  port: 6789
-  type: vmess
-  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.bing.com
-- name: 🇨🇳CN-210.13.85.167-0582 | 5.446MB
-  server: 210.13.85.167
-  port: 10002
-  type: vmess
-  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.bing.com
-- name: RELAY-172.67.70.121-0285 | 4.893MB
-  server: cf-lt.sharecentre.online
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.70.121-0285 | 4.893MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp-ntt.sharecentre.online
-- name: 🇨🇳CN-111.6.86.74-0576 | 4.417MB
+- name: 🇨🇳CN-111.6.86.74-0640 | 5.919MB
   server: 111.6.86.74
   port: 10001
   type: vmess
@@ -138,9 +110,9 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0573 | 4.069MB
+- name: 🇨🇳CN-111.6.86.74-0636 | 5.546MB
   server: 111.6.86.74
-  port: 7777
+  port: 6789
   type: vmess
   uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
   alterId: 0
@@ -152,35 +124,7 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: 🇨🇳CN-111.6.86.74-0579 | 3.238MB
-  server: 111.6.86.74
-  port: 10005
-  type: vmess
-  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.bing.com
-- name: VN-103.167.199.74-0039 | 3.003MB
-  server: vn2.hello4g.pw
-  port: 443
-  type: vmess
-  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cn.e.pic.ak.mangatoon.akamaized.net
-- name: 🇨🇳CN-111.6.86.74-0571 | 2.667MB
+- name: 🇨🇳CN-111.6.86.74-0635 | 3.37MB
   server: 111.6.86.74
   port: 9094
   type: vmess
@@ -194,7 +138,35 @@ proxies:
     path: /
     headers:
       Host: www.bing.com
-- name: RELAY-172.67.70.121-0282 | 0.33MB
+- name: 🇨🇳CN-111.6.86.74-0637 | 2.952MB
+  server: 111.6.86.74
+  port: 7777
+  type: vmess
+  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.bing.com
+- name: 🇨🇳CN-111.6.86.74-0643 | 2.791MB
+  server: 111.6.86.74
+  port: 10005
+  type: vmess
+  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.bing.com
+- name: RELAY-172.67.254.89-1079 | 2.528MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -203,13 +175,28 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.70.121-0282 | 0.33MB
+  servername: RELAY-172.67.254.89-1079 | 2.528MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+- name: RELAY-172.67.254.89-1077 | 0.4MB
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.254.89-1077 | 0.4MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: opc-jp.sharecentre.online
-- name: RELAY-172.67.67.54-0281 | 0.089MB
+- name: RELAY-172.67.73.119-1076 | 0.235MB
   server: cf-lt.sharecentre.online
   port: 443
   type: vmess
@@ -218,7 +205,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.67.54-0281 | 0.089MB
+  servername: RELAY-172.67.73.119-1076 | 0.235MB
   network: ws
   ws-opts:
     path: /
@@ -280,39 +267,38 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.70.121-0283 | 37.678MB
-  - 🇺🇸US-165.3.122.219-0630 | 35.538MB
-  - 🇨🇳CN-157.254.193.251-0628 | 15.364MB
-  - 🇨🇳CN-157.254.193.251-0629 | 14.266MB
+  - 🇺🇸US-165.3.122.219-0052 | 33.854MB
+  - RELAY-172.67.43.149-1078 | 32.242MB
+  - 🇨🇳CN-157.254.193.251-0051 | 15.254MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-154.17.22.56-0578 | 13.115MB
-  - 🇨🇳CN-111.6.86.74-0581 | 6.299MB
-  - 🇨🇳CN-111.6.86.74-0572 | 5.625MB
-  - 🇨🇳CN-210.13.85.167-0582 | 5.446MB
+  - 🇨🇳CN-157.254.193.251-0050 | 14.832MB
+  - RELAY-172.67.73.119-1080 | 11.345MB
+  - 🇺🇸US-154.17.22.56-0642 | 7.194MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.70.121-0285 | 4.893MB
-  - 🇨🇳CN-111.6.86.74-0576 | 4.417MB
-  - 🇨🇳CN-111.6.86.74-0573 | 4.069MB
-  - 🇨🇳CN-111.6.86.74-0579 | 3.238MB
+  - 🇨🇳CN-111.6.86.74-0645 | 6.64MB
+  - 🇨🇳CN-111.6.86.74-0640 | 5.919MB
+  - 🇨🇳CN-111.6.86.74-0636 | 5.546MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - VN-103.167.199.74-0039 | 3.003MB
-  - 🇨🇳CN-111.6.86.74-0571 | 2.667MB
-  - RELAY-172.67.70.121-0282 | 0.33MB
-  - RELAY-172.67.67.54-0281 | 0.089MB
+  - 🇨🇳CN-111.6.86.74-0635 | 3.37MB
+  - 🇨🇳CN-111.6.86.74-0637 | 2.952MB
+  - 🇨🇳CN-111.6.86.74-0643 | 2.791MB
+  - RELAY-172.67.254.89-1079 | 2.528MB
+  - RELAY-172.67.254.89-1077 | 0.4MB
+  - RELAY-172.67.73.119-1076 | 0.235MB
 rules:
 - MATCH,Global ©️
